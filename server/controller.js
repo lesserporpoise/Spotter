@@ -3,7 +3,7 @@ module.exports={
     dbInstance.read_dloads()
     .then(dLoads=>res.status(200).send(dLoads))
     .catch(err=>{
-        res.status(500).send({errorMessage: "Do Mo Betta!!!"});
+        res.status(500).send({errorMessage: "Just follow the soothing sound of my VoIcE!!!"});
         console.log(err)
     })
     },
@@ -11,7 +11,7 @@ module.exports={
     dbInstance.read_uloads_all()
     .then(myLoads=>res.status(200).send(myLoads))
     .catch(err=>{
-        res.status(500).send({errorMessage: "Do Mo Betta!!!"});
+        res.status(500).send({errorMessage: "Just follow the soothing sound of my VoIcE!!!"});
         console.log(err)
     })
     },
@@ -19,7 +19,7 @@ module.exports={
     dbInstance.read_uloads(req.params.id)
     .then(myLoads=>res.status(200).send(myLoads))
     .catch(err=>{
-        res.status(500).send({errorMessage: "Do Mo Betta!!!"});
+        res.status(500).send({errorMessage: "Just follow the soothing sound of my VoIcE!!!"});
         console.log(err)
     })
     },
@@ -27,7 +27,7 @@ module.exports={
     dbInstance.read_uloads_single(req.params.uid,req.params.lid)
     .then(myOneLoad => res.status(200).send(myOneLoad))
     .catch(err=>{
-        res.status(500).send({errorMessage: "Ya done broke it dagnabbit..."});
+        res.status(500).send({errorMessage: "Just follow the soothing sound of my VoIcE!!!"});
         console.log(err)})
     },
     newLoad:(req,res,next) => {const dbInstance = req.app.get('db');
@@ -35,7 +35,7 @@ module.exports={
     dbInstance.create_load([userid,des,mass,vm,bc])
     .then(()=>res.sendStatus(200))
     .catch(err=>{
-        res.status(500).send({errorMessage:"Nothing works, cause you suck."});
+        res.status(500).send({errorMessage:"Just follow the soothing sound of my VoIcE!!!"});
         console.log(err)
     })
 },
@@ -50,9 +50,11 @@ module.exports={
 },
     deleteLoad:(req,res,next) => {const dbInstance = req.app.get('db');
         dbInstance.delete_load(req.params.id)
-        .then(()=>res.sendStatus(200))
+        .then(()=>
+        dbInstance.read_uloads_all()
+        .then((loads=>res.status(200).send(loads))))
         .catch(err=>{
-            res.status(500).send({errorMessage:"Ya done broke it dagnabbit..."});
+            res.status(500).send({errorMessage:"Just follow the soothing sound of my VoIcE!!!"});
             console.log(err)
         })
 }

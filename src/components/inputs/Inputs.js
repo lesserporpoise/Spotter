@@ -1,15 +1,30 @@
 import React, { Component } from 'react'
 import Graph from '../graph/Graph'
 import Outputs from '../outputs/Outputs'
+import {connect} from 'react-redux'
 
-export default class Inputs extends Component {
+class Inputs extends Component {
+  constructor(props){
+    super(props)
+    this.state={}
+  }
   render() {
+    console.log(this.props)
     return (
       <div>
-        These are the Inputs
+        <input placeholder="Range"/>
+        <input placeholder="Wind Speed"/>
+        <input placeholder="toggle" value="Wind L or R"/>
         <Outputs/>
         <Graph/>
       </div>
     )
   }
 }
+function mapStateToProps(state){
+  return{
+    cardData:state.cardData
+  }
+}
+
+export default connect(mapStateToProps,null)(Inputs)

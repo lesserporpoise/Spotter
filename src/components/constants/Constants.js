@@ -5,7 +5,9 @@ export default class Constants extends Component {
   render() {
     return (
       <div>
-        This is the Constants Component
+        <input placeholder="Mass"/>
+        <input placeholder="Velocity"/>
+        <input placeholder="Ballistic Coefficient"/>
         <Inputs/>
       </div>
     )
