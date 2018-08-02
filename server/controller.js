@@ -40,8 +40,8 @@ module.exports={
     })
 },
     updateLoad:(req,res,next) => {const dbInstance = req.app.get('db');
-        const {userid,des,mass,vm,bc} = req.body;
-        dbInstance.update_load(req.params.id,des,mass,vm,bc)
+        const {desIn,massIn,vMIn,bCIn} = req.body;
+        dbInstance.update_load(req.params.id,desIn,massIn,vMIn,bCIn)
         .then(()=>res.sendStatus(200))
         .catch(err=>{
             res.status(500).send({errorMessage: "Just follow the soothing sound of my VoIcE!!!"});

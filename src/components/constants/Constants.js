@@ -1,24 +1,42 @@
 import React, { Component } from 'react'
 import Inputs from '../inputs/Inputs'
 import {connect} from 'react-redux'
+import {revert,newCard} from '../../ducks/reducer'
+import axios from 'axios'
 
 class Constants extends Component {
   constructor(props){
     super(props)
     this.state={
+      userid:1,
+      desIn:'',
       massIn:0,
       vMIn:0,
-      bCIn:0
+      bCIn:0,
     }
   }
 
+  clearFields(){
+    this.props.revert();
+  }
+
+  save(){
+    console.log(this.props.cardData.loadid)
+    let {userid,desIn,massIn,vMIn,bCIn} = this.state
+    this.props.newCard({userid:userid,loadid:this.props.cardData.loadid,designation:desIn,mass:massIn,vm:vMIn,bc:bCIn});
+    axios.put(`/spotter/api/update/${this.props.cardData.loadid}`,{desIn,massIn,vMIn,bCIn,userid})
+  }
+  
   changeHandler1(val){
-    this.setState({massIn:val})
+    this.setState({desIn:val})
   }
   changeHandler2(val){
-    this.setState({vMIn:val})
+    this.setState({massIn:val})
   }
   changeHandler3(val){
+    this.setState({vMIn:val})
+  }
+  changeHandler4(val){
     this.setState({bCIn:val})
   }
 
@@ -28,25 +46,28 @@ class Constants extends Component {
   //3. there needs to be a save function.             (PUT)
   //4. there needs to be a save as new function.      (POST)
 
-  componentDidMount(){
-    this.setState({
-      massIn:this.props.mass,
-      vMIn:this.props.vm,
-      bCIn:this.props.bc
-    })
-  }
-
-
-
   render() {
     let {designation, mass, vm, bc} = this.props.cardData
     return (
       <div>
-        <input value={designation?designation:"Designation"}/>
+        <button onClick={()=>this.clearFields()}>Reset Constants</button>
+        <button>Edit</button>
+        <button onClick={()=>this.save()}>Save Changes</button>
+        <button>Save as New Card</button>
         <br/>
-        <input value={mass?mass:"Mass"} onChange={e=>this.changeHandler1(e.target.value)}/>
-        <input value={vm?vm:"Muzzle Velocity"} onChange={e=>this.changeHandler2(e.target.value)}/>
-        <input value={bc?bc:"Ballistic Coefficient"} onChange={e=>this.changeHandler3(e.target.value)}/>
+
+        Designation: <input placeholder="Designation" onChange={e=>this.changeHandler1(e.target.value)}/>
+        <span>{this.state.desIn !== ''? this.state.desIn:designation}</span><br/>
+
+        Mass: <input placeholder="Mass" onChange={e=>this.changeHandler2(e.target.value)}/> 
+        <span>{this.state.massIn !== 0? this.state.massIn:mass}</span><br/>
+
+        Muzzle Velocity: <input placeholder="Muzzle Velocity" onChange={e=>this.changeHandler3(e.target.value)}/>
+        <span>{this.state.vMIn !== 0? this.state.vMIn:vm}</span><br/>
+
+        Ballistic Coefficient: <input placeholder="Ballistic Coefficient" onChange={e=>this.changeHandler4(e.target.value)}/>
+        <span>{this.state.bCIn !== 0? this.state.bCIn:bc}</span><br/>
+
         <Inputs/>
       </div>
     )
@@ -59,4 +80,4 @@ function mapStateToProps(state){
   }
 }
 
-export default connect(mapStateToProps,null)(Constants)
+export default connect(mapStateToProps,{revert,newCard})(Constants)

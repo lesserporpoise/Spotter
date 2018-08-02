@@ -7,7 +7,7 @@ class Inputs extends Component {
   constructor(props){
     super(props)
     this.state={
-      rangeIn:0,
+      rangeIn:100,
       windIn:0,
       windDirIn:0
     }
@@ -24,12 +24,17 @@ class Inputs extends Component {
 
 
   render() {
-    console.log(this.state)
     return (
       <div>
-        <input placeholder="Range"        onChange={e=>this.changeHandler1(e.target.value)}/>
-        <input placeholder="Wind Speed"   onChange={e=>this.changeHandler2(e.target.value)}/>
-        <input placeholder="Wind Direction"  onChange={e=>this.changeHandler3(e.target.value)}/>
+        Range<input placeholder="Range" onChange={e=>this.changeHandler1(e.target.value)}/>
+        <span>{this.state.rangeIn}</span><br/>
+
+        Wind Speed<input placeholder="Wind Speed" onChange={e=>this.changeHandler2(e.target.value)}/>
+        <span>{this.state.windIn}</span><br/>
+
+        Wind Direction<input placeholder="Wind Direction" onChange={e=>this.changeHandler3(e.target.value)}/>
+        <span>{this.state.windDirIn}</span><br/>
+
         <Outputs/>
         <Graph/>
       </div>

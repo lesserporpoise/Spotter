@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {fillForm} from '../../ducks/reducer'
+import {fillForm,yesSave} from '../../ducks/reducer'
 import {Link} from 'react-router-dom'
 
 
@@ -11,11 +11,11 @@ class Card extends Component{
   }
   
   render(){
-    const {designation,mass,vm,bc,loadid} = this.props
+    const {userid,designation,mass,vm,bc,loadid} = this.props;
     return(
     <div>
       <Link to="/form">
-      <div onClick={()=>this.props.fillForm({loadid,designation,mass,vm,bc})}>
+      <div onClick={()=>{this.props.fillForm({userid,loadid,designation,mass,vm,bc});this.props.yesSave()}}>
         <p>-------------------------------------------------------</p>
         <br/>
         <h1>Designation: {designation}</h1>
@@ -38,4 +38,4 @@ function mapStateToProps(state){
   }
 }
   
-export default connect(mapStateToProps,{fillForm})(Card)
+export default connect(mapStateToProps,{fillForm,yesSave})(Card)
