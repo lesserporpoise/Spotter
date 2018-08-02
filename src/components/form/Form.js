@@ -6,6 +6,8 @@ export default class Form extends Component {
     return (
       <div>
         This is the Form View
+        <button>Save Changes</button>
+        <button>Save as New Card</button>
         <Constants/>
       </div>
     )

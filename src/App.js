@@ -42,8 +42,6 @@ class App extends Component {
   }
 
   render() {
-    // console.log(this.state.userTable[0])
-    // let {loadid,userid,designation,mass,vm,bc} = this.state.userTable[0]
     return (
       <div>
         <Header/>
