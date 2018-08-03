@@ -31,8 +31,8 @@ module.exports={
         console.log(err)})
     },
     newLoad:(req,res,next) => {const dbInstance = req.app.get('db');
-    const {userid,des,mass,vm,bc} = req.body;
-    dbInstance.create_load([userid,des,mass,vm,bc])
+    const {userid,desIn,massIn,vMIn,bCIn} = req.body;
+    dbInstance.create_load([userid,desIn,massIn,vMIn,bCIn])
     .then(()=>res.sendStatus(200))
     .catch(err=>{
         res.status(500).send({errorMessage:"Just follow the soothing sound of my VoIcE!!!"});
@@ -57,5 +57,13 @@ module.exports={
             res.status(500).send({errorMessage:"Just follow the soothing sound of my VoIcE!!!"});
             console.log(err)
         })
+},
+    adminLoads:(req,res,next) => {const dbInstance = req.app.get('db');
+        dbInstance.read_admin_loads()
+        .then(dLoads=>res.status(200).send(dLoads))
+        .catch(err=>{
+            res.status(500).send({errorMessage: "Just follow the soothing sound of my VoIcE!!!"});
+            console.log(err)
+})
 }
 }

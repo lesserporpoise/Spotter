@@ -5,15 +5,11 @@ import Form from './components/form/Form'
 import Cards from './components/cards/Cards'
 import Library from './components/library/Library'
 import MyLoads from './components/myloads/MyLoads'
+import Admin from './components/admin/Admin'
 import axios from 'axios'
 import {withRouter,Switch, Route, Link} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {pullTableU,pullTableD} from './ducks/reducer'
-
-
-///// The plan here is to make our large database calls at this level, which will allow us to render off of 
-//props in lower components. That should give us good response time on data availability assuming that component did mount is not a total
-//jerk and screws me over. So db calls here, and then we will end up using those lower down.
 
 class App extends Component {
   constructor(props){
@@ -45,13 +41,14 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <Link to="/form"><button>Form</button></Link>
-        <Link to="/"><button>Cards</button></Link>
+        <Link to="/form"> <button>Form</button></Link>
+        <Link to="/">     <button>Cards</button></Link>
         <Switch>
-          <Route exact path="/" component={Cards}/>
-          <Route path="/form" component={Form}/>
-          <Route path="/library" component={Library}/>
-          <Route path="/myloads" component={MyLoads}/>
+          <Route exact path="/"   component={Cards}/>
+          <Route path="/form"     component={Form}/>
+          <Route path="/library"  component={Library}/>
+          <Route path="/myloads"  component={MyLoads}/>
+          <Route path="/admin"    component={Admin}/>
         </Switch>
       </div>
     );

@@ -21,10 +21,39 @@ class Constants extends Component {
   }
 
   save(){
-    console.log(this.props.cardData.loadid)
     let {userid,desIn,massIn,vMIn,bCIn} = this.state
-    this.props.newCard({userid:userid,loadid:this.props.cardData.loadid,designation:desIn,mass:massIn,vm:vMIn,bc:bCIn});
-    axios.put(`/spotter/api/update/${this.props.cardData.loadid}`,{desIn,massIn,vMIn,bCIn,userid})
+    this.props.newCard({
+      userid:userid,
+      loadid:this.props.cardData.loadid,
+      designation:desIn,
+      mass:massIn,
+      vm:vMIn,
+      bc:bCIn});
+      
+    this.props.canSave?
+      axios.put(`/spotter/api/update/${this.props.cardData.loadid}`,{
+        desIn:desIn?desIn:this.props.cardData.designation,
+        massIn:massIn?massIn:this.props.cardData.mass,
+        vMIn:vMIn?vMIn:this.props.cardData.vm,
+        bCIn:bCIn?bCIn:this.props.cardData.bc,
+        userid})
+      :
+      axios.post(`/spotter/api/newload`,{
+        userid:userid,
+        desIn:desIn?desIn:this.props.cardData.designation,
+        massIn:massIn?massIn:this.props.cardData.mass,
+        vMIn:vMIn?vMIn:this.props.cardData.vm,
+        bCIn:bCIn?bCIn:this.props.cardData.bc})
+  }
+
+  saveNew(){
+    let {userid,desIn,massIn,vMIn,bCIn} = this.state
+    axios.post(`/spotter/api/newload`,{
+      userid,
+      desIn,
+      massIn,
+      vMIn,
+      bCIn})
   }
   
   changeHandler1(val){
@@ -51,7 +80,6 @@ class Constants extends Component {
     return (
       <div>
         <button onClick={()=>this.clearFields()}>Reset Constants</button>
-        <button>Edit</button>
         <button onClick={()=>this.save()}>Save Changes</button>
         <button>Save as New Card</button>
         <br/>
@@ -76,7 +104,8 @@ class Constants extends Component {
 
 function mapStateToProps(state){
   return{
-    cardData:state.cardData
+    cardData:state.cardData,
+    canSave:state.canSave
   }
 }
 

@@ -18,6 +18,7 @@ class Cards extends Component {
         This is the Cards View
         <Link to="/myloads"><button>MyLoads</button></Link>
         <Link to="/library"><button>Library</button></Link>
+        <Link to="/admin"><button>Admin</button></Link>
       </div>
       
     )

@@ -24,6 +24,7 @@ app.get('/spotter/api/myloads/:id',controller.myLoads);
 app.get('/spotter/api/uloads',controller.uLoads);
 app.get('/spotter/api/myloads/:uid/:lid',controller.myLoadsSingle);
 app.get('/spotter/api/dloads',controller.dLoads);
+app.get('/spotter/api/adminloads',controller.adminLoads);
 
 app.post('/spotter/api/newload',controller.newLoad);
 
