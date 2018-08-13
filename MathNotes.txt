@@ -1,0 +1,84 @@
+
+Calculating the trajectory of a bullet serves as a useful introduction to some key concepts in classical physics, but it also has a lot of scope to include more complex factors. At the most basic level, the trajectory of a bullet works just like the trajectory of any other projectile. The key is separating the components of the velocity into the (x) and (y) axes, and using the constant acceleration due to gravity to work out how far the bullet can fly before hitting the ground. However, you can also incorporate drag and other factors if you want a more precise answer.
+
+TL;DR (Too Long; Didn't Read)
+Ignore wind resistance to calculate the distance traveled by a bullet using the simple formula:
+
+x = v0x√2h ÷ g
+
+Where (v0x) is its starting speed, (h) is the height it’s fired from and (g) is the acceleration due to gravity.
+
+This formula incorporates drag:
+
+x = vx0t − CρAv2 t2 ÷ 2m
+
+Here, (C) is the drag coefficient of the bullet, (ρ) is the air density, (A) is the area of the bullet, (t) is the time of flight and (m) is the mass of the bullet.
+
+The Background: (x) and (y) Components of Velocity
+The main point you need to understand when calculating trajectories is that velocities, forces or any other “vector” (which has a direction as well as a strength) can be split into “components.” If something is moving at a 45-degree angle to the horizontal, think of it as moving horizontally with a certain speed and vertically with a certain speed. Combining these two speeds and taking their differing directions into account gives you the velocity of the object, including both speed and their resulting direction.
+
+Use the cos and sin functions to separate forces or velocities into their components. If something is moving at a speed of 10 meters per second at a 30-degree angle to the horizontal, the x-component of the velocity is:
+
+vx = v cos (θ) = 10 m/s × cos (30°) = 8.66 m/s
+
+Where (v) is the speed (i.e., 10 meters per second), and you can put any angle in the place of the (θ) to suit your problem. The (y) component is given by a similar expression:
+
+vy = v sin (θ) = 10 m/s × sin (30°) = 5 m/s
+
+These two components make up the original velocity.
+
+Basic Trajectories With the Constant Acceleration Equations
+The key to most problems involving trajectories is that the projectile stops moving forwards when it hits the floor. If the bullet is fired from 1 meter in the air, when the acceleration due to gravity takes it down 1 meter, it cannot travel any further. This means the y-component is the most important thing to consider.
+
+The equation for the y-component displacement is:
+
+y = v0y t - 0.5gt2
+
+The “0” subscript means the starting speed in the (y) direction, (t) means time and (g) means the acceleration due to gravity, which is 9.8 m/s2. We can simplify this if the bullet is fired perfectly horizontally, so it doesn’t have a speed in the (y) direction. This leaves:
+
+y = -0.5gt2
+
+In this equation, (y) means the displacement from the starting position, and we want to know how long it takes the bullet to fall from its starting height (h). In other words, we want
+
+y = −h = -0.5gt2
+
+Which you re-arrange to:
+
+t = √2h ÷ g
+
+This is the time of flight for the bullet. Its forward velocity determines the distance it travels, and this is given by:
+
+x = v0x t
+
+Where the velocity is the speed it leaves the gun at. This ignores the effects of drag to simplify the math. Using the equation for (t) found a moment ago, the distance traveled is:
+
+x = v0x√2h ÷ g
+
+For a bullet that fires at 400 m/s and is shot from 1 meter high, this gives:
+
+x__ = 400 m/s √[(2 × 1 m) ÷ 9.8 m/s2]
+
+= 400 m/s × 0.452 s = 180.8 m
+
+So the bullet travels about 181 meters before hitting the ground.
+
+Incorporating Drag
+For a more realistic answer, build drag into the equations above. This complicates things a bit, but you can calculate it easily enough if you find the required bits of information about your bullet and the temperature and pressure where it is being fired. The equation for the force due to drag is:
+
+Fdrag = −CρAv2 ÷ 2
+
+Here (C) represents the drag coefficient of the bullet (you can find out for a specific bullet, or use C = 0.295 as a general figure), ρ is the air density (about 1.2 kg/cubic meter at normal pressure and temperature), (A) is the cross-sectional area of a bullet (you can work this out for a specific bullet or just use A = 4.8 × 10−5 m2, the value for a .308 caliber) and (v) is the speed of the bullet. Finally, you use the mass of the bullet to turn this force into an acceleration to use in the equation, which can be taken as m = 0.016 kg unless you have a specific bullet in mind.
+
+This gives a more complicated expression for distance traveled in the (x) direction:
+
+x = vx0t − CρAv2 t2 ÷ 2m
+
+This is complicated because technically, the drag reduces the speed, which in turn reduces the drag, but you can simplify things by just calculating the drag based on the initial speed of 400 m/s. Using a flight time of 0.452 s (as before), this gives:
+
+x__ = 400 m/s × 0.452 s - [0.295 × 1.2 kg/m3 × (4.8 × 10−5 m2) × 4002 m2/s2 × 0.4522 s2] ÷ 2 × 0.016 kg
+
+= 180.8 m - (0.555 kg m ÷ 0.032 kg)
+
+= 180.8 m - 17.3 m = 163.5 m
+
+So the addition of drag changes the estimate by about 17 meters.

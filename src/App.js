@@ -7,7 +7,7 @@ import Library from './components/library/Library'
 import MyLoads from './components/myloads/MyLoads'
 import Admin from './components/admin/Admin'
 import axios from 'axios'
-import {withRouter,Switch, Route, Link} from 'react-router-dom'
+import {withRouter,Switch, Route} from 'react-router-dom'
 import {connect} from 'react-redux'
 import {pullTableU,pullTableD} from './ducks/reducer'
 
@@ -41,8 +41,6 @@ class App extends Component {
     return (
       <div>
         <Header/>
-        <Link to="/form"> <button>Form</button></Link>
-        <Link to="/">     <button>Cards</button></Link>
         <Switch>
           <Route exact path="/"   component={Cards}/>
           <Route path="/form"     component={Form}/>

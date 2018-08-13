@@ -3,7 +3,7 @@ import Nav from '../nav/Nav'
 
 export default () => {
   return (
-    <div>
+    <div className="headerBox">
         
       This is The Header
       <Nav/>
