@@ -15,14 +15,10 @@ class DefaultCard extends Component{
     <div>
       <Link to="/form">
       <div onClick={()=>{this.props.fillForm({userid,loadid,designation,mass,vm,bc});this.props.noSave()}}>
-        <p>-------------------------------------------------------</p>
-        <br/>
         <h1>Designation: {designation}</h1>
         <h2>Mass: {mass}</h2>
         <h2>Muzzle Velocity:{vm}</h2>
         <h2>Ballistic Coefficient:{bc}</h2>
-        <br/>
-        <p>-------------------------------------------------------</p>
       </div>
       </Link>
     </div>

@@ -20,12 +20,16 @@ class Outputs extends Component{
       let gtokg = 0.00006479891;
       let fpstomps = 0.3048;
       let flightTime = ((this.props.range*3)/this.props.velocity);
-      this.setState({drop:((.5*this.state.g)*Math.pow(flightTime,2))});
+      let downer = ((.5*this.state.g)*Math.pow(flightTime,2))
+      this.setState({drop:downer});
+      let vertMoa = downer/((this.props.range*1.047)/100)
+      this.setState({comeUp:vertMoa})
       let windDrift = ((this.props.range*(this.props.wSpeed*.15))/100)
       this.setState({shift:windDrift})
+      let horizMoa = windDrift/((this.props.range*1.047)/100)
+      this.setState({windage:horizMoa})
       let bulletTime = this.props.range*3/this.props.velocity;
       let bulletDecay = (100-(bulletTime*(bcx*this.props.range)))/100;
-      console.log(bulletDecay)
       let finalVelocity = bulletDecay*this.props.velocity
       this.setState({finalVelocity})
       let newMass = this.props.mass*gtokg
@@ -36,16 +40,28 @@ class Outputs extends Component{
 
   render(){
     return (
-      <div>
-        <div>
+      <div className='outputBox'>
+        <div className='outputMini'>
           <button onClick={()=>{this.makeDaNumbers()}}>Calculate</button>
         </div>
-        <h1>Bullet Drop(in):{this.state.drop}</h1>
-        <h1>Wind Shift(in):{this.state.shift}</h1>
-        <h1>Velocity at Impact(fps):{this.state.finalVelocity}</h1>
-        <h1>Energy at Impact(in):{this.state.finalEnergy}</h1>
-        <h1>Vertical MOA Correction:{this.state.comeUp}</h1>
-        <h1>Horizontal MOA Correction:{this.state.windage}</h1>
+        <div className='outputMini'>
+          <h1>Bullet Drop(in):{this.state.drop}</h1>
+        </div>
+        <div className='outputMini'>
+          <h1>Wind Shift(in):{this.state.shift}</h1>
+        </div>
+        <div className='outputMini'>
+          <h1>Velocity at Impact(fps):{this.state.finalVelocity}</h1>
+        </div>
+        <div className='outputMini'>
+          <h1>Energy at Impact(joules):{this.state.finalEnergy}</h1>
+        </div>
+        <div className='outputMini'>
+          <h1>Vertical MOA Correction:{this.state.comeUp}</h1>
+        </div>
+        <div className='outputMini'>
+          <h1>Horizontal MOA Correction:{this.state.windage}</h1>
+        </div>
       </div>
     )
   }

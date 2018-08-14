@@ -78,24 +78,40 @@ class Constants extends Component {
   render() {
     let {designation, mass, vm, bc} = this.props.cardData
     return (
-      <div>
-        <button onClick={()=>this.clearFields()}>Reset Constants</button>
-        <button onClick={()=>this.save()}>Save Constants</button>
-        <button onClick={()=>this.saveNew()}>Save as New Card</button>
-        <br/>
-
-        <h1>Designation:</h1> <input placeholder="Designation" onChange={e=>this.changeHandler1(e.target.value)}/>
-        <span>{this.state.desIn !== ''? this.state.desIn:designation}</span><br/>
-
-        <h1>Mass:</h1> <input placeholder="Mass" onChange={e=>this.changeHandler2(e.target.value)}/> 
-        <span>{this.state.massIn !== 0? this.state.massIn:mass}</span><br/>
-
-        <h1>Muzzle Velocity:</h1> <input placeholder="Muzzle Velocity" onChange={e=>this.changeHandler3(e.target.value)}/>
-        <span>{this.state.vMIn !== 0? this.state.vMIn:vm}</span><br/>
-
-        <h1>Ballistic Coefficient:</h1> <input placeholder="Ballistic Coefficient" onChange={e=>this.changeHandler4(e.target.value)}/>
-        <span>{this.state.bCIn !== 0? this.state.bCIn:bc}</span><br/>
-
+      <div className="constantBox">
+        <div className="constantButtons">
+          <button onClick={()=>this.clearFields()}>Reset Constants</button>
+          <button onClick={()=>this.save()}>Save Constants</button>
+          <button onClick={()=>this.saveNew()}>Save as New Card</button>
+        </div>
+        <div className="constantMini">
+          <div>
+            Designation:
+          </div>
+            <input placeholder="Designation" onChange={e=>this.changeHandler1(e.target.value)}/>
+          <div>
+            {this.state.desIn !== ''? this.state.desIn:designation}
+          </div>
+        </div>
+        <div className="constantMini">
+          <div>
+            Mass:
+          </div>
+            <input placeholder="Mass" onChange={e=>this.changeHandler2(e.target.value)}/>
+          <div> 
+            {this.state.massIn !== 0? this.state.massIn:mass}
+          </div>
+        </div>
+        <div className="constantMini">
+          Muzzle Velocity:
+          <input placeholder="Muzzle Velocity" onChange={e=>this.changeHandler3(e.target.value)}/>
+          {this.state.vMIn !== 0? this.state.vMIn:vm}
+        </div>
+        <div className="constantMini">
+          Ballistic Coefficient:
+          <input placeholder="Ballistic Coefficient" onChange={e=>this.changeHandler4(e.target.value)}/>
+          {this.state.bCIn !== 0? this.state.bCIn:bc}
+        </div>
         <Inputs/>
       </div>
     )

@@ -17,14 +17,17 @@ class Inputs extends Component {
   render() {
     return (
       <div>
+        <div>
         Range<input placeholder="Range" onChange={(e)=>this.props.ducksRange(e.target.value)}/>
         <span>{this.props.range}</span><br/>
-
+        </div>
+        
+        <div>
         Wind Speed<input placeholder="Wind Speed" onChange={(e)=>this.props.ducksWind(e.target.value)}/>
         <span>{this.props.windSpeed}</span><br/>
+        </div>
 
-        Wind Direction<input placeholder="Wind Direction" onChange={(e)=>this.props.ducksDir(e.target.value)}/>
-        <span>{this.props.windDirection}</span><br/>
+
 
 
         <Outputs/>
@@ -38,7 +41,6 @@ function mapStateToProps(state){
     cardData:state.cardData,
     range:state.range,
     windSpeed:state.windSpeed,
-    windDirection:state.windDirection
   }
 }
 

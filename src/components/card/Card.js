@@ -14,19 +14,17 @@ class Card extends Component{
     const {userid,designation,mass,vm,bc,loadid} = this.props;
     return(
     <div>
-      <Link to="/form">
       <div onClick={()=>{this.props.fillForm({userid,loadid,designation,mass,vm,bc});this.props.yesSave()}}>
-        <p>-------------------------------------------------------</p>
-        <br/>
+      <Link to="/form">
         <h1>Designation: {designation}</h1>
         <h2>Mass: {mass}</h2>
         <h2>Muzzle Velocity:{vm}</h2>
         <h2>Ballistic Coefficient:{bc}</h2>
-        <button onClick={()=>this.props.byeByeCard(loadid)}>Delete</button>
-        <br/>
-        <p>-------------------------------------------------------</p>
-      </div>
       </Link>
+        <div className='deleteBox'>
+          <button onClick={()=>this.props.byeByeCard(loadid)}>Delete</button>
+        </div>
+      </div>
     </div>
     )
   }
