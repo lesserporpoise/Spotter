@@ -2,38 +2,44 @@ import React,{Component} from 'react'
 import {connect} from 'react-redux'
 
 class Outputs extends Component{
-  constructor(){
-    super()
+  constructor(props){
+    super(props)
     this.state={
-      pressure : 30,
-      elevation : 4500,
-      temperature : 80,
-      dragCoefficient : 0.295,
-      airDensity : 1.2,
-      bulletArea : .000048,
-
-      url:'https://sciencing.com/calculate-bullet-trajectory-5185428.html',
-
-      reduxVelocity : "input",
-      reduxMass : "input",
-      reduxRange:"input",
-
-      perfectTime : " 3* range / velocity",
-      velocityMeters : "Velocity / 3.28084",
-      massKilograms : "Mass / 15432.4",
-      /////     
+      g:32.1740,
+      drop:0,
+      shift:0,
+      finalVelocity:0,
+      finalEnergy:0,
+      comeUp:0,
+      windage:0,
     }
   }
+
+  makeDaNumbers(){
+      let bcx = (1-this.props.bc)/50;
+      let flightTime = ((this.props.range*3)/this.props.velocity);
+      this.setState({drop:((.5*this.state.g)*Math.pow(flightTime,2))});
+      let windDrift = ((this.props.range*(this.props.wSpeed*.15))/100)
+      this.setState({shift:windDrift})
+      let bulletTime = this.props.range*3/this.props.velocity;
+      let bulletDecay = bulletTime*((100-(bcx)*this.props.range)/100);
+      console.log(bulletDecay)
+      let finalVelocity = bulletDecay*this.props.velocity
+      this.setState({finalVelocity})
+  }
+
   render(){
     return (
       <div>
-        This is where the outputs will go.
-        <h1>Bullet Drop(in):{3*this.state.reduxRange/this.state.velocityMeters} </h1>
-        <h1>Wind Shift(in): </h1>
-        <h1>Velocity at Impact(fps): </h1>
-        <h1>Energy at Impact(in): </h1>
-        <h1>Vertical MOA Correction: </h1>
-        <h1>Horizontal MOA Correction: </h1>
+        <div>
+          <button onClick={()=>{this.makeDaNumbers()}}>Calculate</button>
+        </div>
+        <h1>Bullet Drop(in):{this.state.drop}</h1>
+        <h1>Wind Shift(in):{this.state.shift}</h1>
+        <h1>Velocity at Impact(fps):{this.state.finalVelocity}</h1>
+        <h1>Energy at Impact(in):{this.state.finalEnergy}</h1>
+        <h1>Vertical MOA Correction:{this.state.comeUp}</h1>
+        <h1>Horizontal MOA Correction:{this.state.windage}</h1>
       </div>
     )
   }
@@ -41,7 +47,12 @@ class Outputs extends Component{
 
 function mapStateToProps(state){
   return{
-    state:state
+    velocity:state.cardData.vm,
+    range:state.range,
+    bc:state.cardData.bc,
+    mass:state.cardData.mass,
+    wSpeed:state.windSpeed,
+    wDirection:state.windDirection
   }
 }
 

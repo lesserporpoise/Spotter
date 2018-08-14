@@ -49,11 +49,11 @@ class Constants extends Component {
   saveNew(){
     let {userid,desIn,massIn,vMIn,bCIn} = this.state
     axios.post(`/spotter/api/newload`,{
-      userid,
-      desIn,
-      massIn,
-      vMIn,
-      bCIn})
+      userid:userid,
+      desIn:desIn?desIn:this.props.cardData.designation,
+      massIn:massIn?massIn:this.props.cardData.mass,
+      vMIn:vMIn?vMIn:this.props.cardData.vm,
+      bCIn:bCIn?bCIn:this.props.cardData.bc})
   }
   
   changeHandler1(val){
@@ -80,8 +80,8 @@ class Constants extends Component {
     return (
       <div>
         <button onClick={()=>this.clearFields()}>Reset Constants</button>
-        <button onClick={()=>this.save()}>Save Changes</button>
-        <button>Save as New Card</button>
+        <button onClick={()=>this.save()}>Save Constants</button>
+        <button onClick={()=>this.saveNew()}>Save as New Card</button>
         <br/>
 
         <h1>Designation:</h1> <input placeholder="Designation" onChange={e=>this.changeHandler1(e.target.value)}/>

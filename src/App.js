@@ -22,14 +22,12 @@ class App extends Component {
 
    getUserTable(){
     setTimeout(()=>{axios.get('/spotter/api/uloads')
-    .then(response=>{this.setState({userTable:response.data});
-    console.log(this.state.userTable);this.props.pullTableU(response.data)})
+    .then(response=>{this.setState({userTable:response.data});this.props.pullTableU(response.data)})
   },1000)}
 
    getDefaultTable(){
     setTimeout(()=>{axios.get('/spotter/api/dloads')
-    .then(response=>{this.setState({defaultTable:response.data});
-    console.log(this.state.defaultTable);this.props.pullTableD(response.data)})
+    .then(response=>{this.setState({defaultTable:response.data});this.props.pullTableD(response.data)})
   },1000)}
 
   componentDidMount(){

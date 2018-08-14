@@ -14,12 +14,12 @@ class Graph extends Component{
                     {
                         label:['Vacuum Flight'],
                         data:[],
-                        backgroundColor:['rgba(255,0,0)']
+                        backgroundColor:['rgba(0,149,127,0.75)']
                     },
                     {
                         label:['True Flight'],
                         data:[],
-                        backgroundColor:['rgba(0,0,255)']
+                        backgroundColor:['rgba(218,165,32,0.75)']
                     }
                 ]
             }
@@ -29,19 +29,22 @@ class Graph extends Component{
 computeData(){
     let distance = [0.1,50,100,150,200,250,300,350,400,450,500,550,600,650,700,750,800,850,900,950,1000]
     let velocity = this.props.vm
+    let bc = this.props.bc
     let splits = []
+    let resistanceSplits = []
     let gFps = 32.1740
+    let ibc = 1-bc
 
     splits = distance.map((x)=>{return x*3/velocity})
     let gravSplits = splits.map((x)=>{return(-1*(.5*gFps*Math.pow(x,2)))})
+
+    resistanceSplits = distance.map((x,y)=>{return (x*3)/(velocity*((100-(ibc*y))/100))})
+    let realSplits = resistanceSplits.map((x)=>{return(-1*(.5*gFps*Math.pow(x,2)))})
+       
     let newState={...this.state}
     newState.graphData.datasets[0].data=gravSplits;
-    newState.graphData.datasets[1].data=gravSplits;
+    newState.graphData.datasets[1].data=realSplits;
     this.setState(newState);
-
-
-    console.log(this.state.points)
-    console.log(this.state.graphData.datasets[0].data)
 
 }
 
@@ -52,25 +55,25 @@ computeData(){
   render(){
       return(
         <div className="graphBox">
-        <button onClick={()=>{this.computeData()}}>Calculate</button>
-        <br/>
-        <Line
-            data={this.state.graphData}
-            options={{
-                maintainAspectRatio: false,
-                scales:{
-                    yAxes:[{
-                        ticks:{
-                            max:10,
-                            min:-50,
-                            stepSize:5
-                        }
-                    }]
-                }
+            <button onClick={()=>{this.computeData()}}>Show Flight Path</button>
+            <br/>
+            <Line
+                data={this.state.graphData}
+                options={{
+                    maintainAspectRatio: false,
+                    scales:{
+                        yAxes:[{
+                            ticks:{
+                                max:10,
+                                min:-50,
+                                stepSize:5
+                            }
+                        }]
+                    }
 
-            }}
-        />
-        This is Where the Graph Begins
+                }}
+            />
+            This is Where the Graph Begins
         </div>
       )
   }
@@ -78,7 +81,8 @@ computeData(){
 
 function mapStateToProps(state){
     return{
-        vm:state.cardData.vm
+        vm:state.cardData.vm,
+        bc:state.cardData.bc
     }
 }
 

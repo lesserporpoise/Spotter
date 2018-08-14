@@ -10,7 +10,10 @@ const initialState = {
         vm:0,
         bc:0
     },
-    canSave:true
+    canSave:true,
+    range:100,
+    windSpeed:0,
+    windDirection:true
 }
 
 const UPDATE_NAME = "UPDATE_NAME"
@@ -21,6 +24,9 @@ const REVERT = "REVERT"
 const NEW_CARD = "NEW_CARD"
 const NO_SAVE = "NO_SAVE"
 const YES_SAVE = "YES_SAVE"
+const UPDATE_RANGE = "UPDATE_RANGE"
+const UPDATE_WIND = "UPDATE_WIND"
+const UPDATE_DIR = "UPDATE_DIR"
 
 
 export const updateName = (name) => ({
@@ -52,6 +58,18 @@ export const noSave = () => ({
 export const yesSave = () => ({
     type:YES_SAVE
 })
+export const ducksRange = (range) => ({
+    type: UPDATE_RANGE,
+    payload: range
+})
+export const ducksWind = (windSpeed) => ({
+    type: UPDATE_WIND,
+    payload: windSpeed
+})
+export const ducksDir = (windDirection) => ({
+    type: UPDATE_DIR,
+    payload: windDirection
+})
 
 
 
@@ -82,6 +100,15 @@ export default (state = initialState, action) => {
         
     case YES_SAVE:
         return Object.assign({},state,{canSave:true})
+        
+    case UPDATE_RANGE:
+        return Object.assign({},state,{range:action.payload})
+
+    case UPDATE_WIND:
+        return Object.assign({},state,{windSpeed:action.payload})
+
+    case UPDATE_DIR:
+        return Object.assign({},state,{windDirection:action.payload})
 
 
     default:
