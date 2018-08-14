@@ -17,15 +17,21 @@ class Outputs extends Component{
 
   makeDaNumbers(){
       let bcx = (1-this.props.bc)/50;
+      let gtokg = 0.00006479891;
+      let fpstomps = 0.3048;
       let flightTime = ((this.props.range*3)/this.props.velocity);
       this.setState({drop:((.5*this.state.g)*Math.pow(flightTime,2))});
       let windDrift = ((this.props.range*(this.props.wSpeed*.15))/100)
       this.setState({shift:windDrift})
       let bulletTime = this.props.range*3/this.props.velocity;
-      let bulletDecay = bulletTime*((100-(bcx)*this.props.range)/100);
+      let bulletDecay = (100-(bulletTime*(bcx*this.props.range)))/100;
       console.log(bulletDecay)
       let finalVelocity = bulletDecay*this.props.velocity
       this.setState({finalVelocity})
+      let newMass = this.props.mass*gtokg
+      let finalEnergy = newMass * Math.pow(this.props.velocity * fpstomps,2)
+      this.setState({finalEnergy})
+
   }
 
   render(){

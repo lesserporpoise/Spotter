@@ -17,13 +17,12 @@ let realSplits = resistanceSplits.map((x)=>{return (.5*gFps*Math.pow(x,2))})
 
 
 let vm = 2500;
-let range = 100;
+let range = 1000;
 let bcx = (1-bc)/50;
-console.log(bcx * 500)
 
 let bulletTime = range*3/vm;
-let bulletDecay = bulletTime*((100-(bcx)*range)/100);
-console.log(bulletDecay)
+let bulletDecay = (100-(bulletTime*(bcx*range)))/100;
+console.log((bulletDecay))
 let finalVelocity = bulletDecay*vm
 
 
