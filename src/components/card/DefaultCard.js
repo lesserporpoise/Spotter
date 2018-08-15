@@ -12,15 +12,17 @@ class DefaultCard extends Component{
   render(){
     const {userid,designation,mass,vm,bc,loadid} = this.props
     return(
-    <div>
-      <Link to="/form">
-      <div onClick={()=>{this.props.fillForm({userid,loadid,designation,mass,vm,bc});this.props.noSave()}}>
-        <h1>Designation: {designation}</h1>
-        <h2>Mass: {mass}</h2>
-        <h2>Muzzle Velocity:{vm}</h2>
-        <h2>Ballistic Coefficient:{bc}</h2>
+    <div className='cardMaster'>
+      <div>
+        <Link to="/form">
+        <div onClick={()=>{this.props.fillForm({userid,loadid,designation,mass,vm,bc});this.props.noSave()}}>
+          <h1 className='cardItem'>Designation: {designation}</h1>
+          <h1 className='cardItem'>Mass: {mass}</h1>
+          <h1 className='cardItem'>Muzzle Velocity:{vm}</h1>
+          <h1 className='cardItem'>Ballistic Coefficient:{bc}</h1>
+        </div>
+        </Link>
       </div>
-      </Link>
     </div>
     )
   }

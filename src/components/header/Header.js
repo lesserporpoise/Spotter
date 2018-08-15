@@ -5,7 +5,9 @@ export default () => {
   return (
     <div className='headerMaster'>   
       <div className='headerChild'>
-        SPOTTER
+        <h1 className='headerLogo'>
+          SPOTTER
+        </h1>
       </div>
       <Nav/>
     </div>

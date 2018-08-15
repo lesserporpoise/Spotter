@@ -16,23 +16,25 @@ class Inputs extends Component {
 
   render() {
     return (
-      <div>
-        <div>
-          <div>
-            Range
+      <div className="inputMaster">
+        <div className="inputChild">
+          <div className="inputMini">
+            <div className="inputSub">
+              Range
+            </div>
+            <input placeholder="Range" onChange={(e)=>this.props.ducksRange(e.target.value)}/>
+            <div className="inputSub">
+              {this.props.range}
+            </div>
           </div>
-          <input placeholder="Range" onChange={(e)=>this.props.ducksRange(e.target.value)}/>
-          <div>
-            {this.props.range}
-          </div>
-        </div>
-        <div>
-          <div>
-            Wind Speed
-          </div>
-          <input placeholder="Wind Speed" onChange={(e)=>this.props.ducksWind(e.target.value)}/>
-          <div>
-            {this.props.windSpeed}
+          <div className="inputMini">
+            <div className="inputSub">
+              Wind Speed
+            </div>
+            <input placeholder="Wind Speed" onChange={(e)=>this.props.ducksWind(e.target.value)}/>
+            <div className="inputSub">
+              {this.props.windSpeed}
+            </div>
           </div>
         </div>
         <Outputs/>

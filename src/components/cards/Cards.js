@@ -14,7 +14,7 @@ class Cards extends Component {
 
   render() {
     return (
-      <div>
+      <div className='cardsMaster'>
         This is the Cards View
         <Link to="/myloads"><button>MyLoads</button></Link>
         <Link to="/library"><button>Library</button></Link>

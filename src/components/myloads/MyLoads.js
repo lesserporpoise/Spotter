@@ -21,6 +21,7 @@ class MyLoads extends Component{
       console.log(this.props)
         return(
             <div>
+              
                 <Link to="/library"><button>Library</button></Link>
                 MyLoads Component
                 <h1>{this.props.userData.map((val,y)=>
