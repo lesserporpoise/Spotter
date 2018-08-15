@@ -69,12 +69,6 @@ class Constants extends Component {
     this.setState({bCIn:val})
   }
 
-  // there are some things that need to happen here.  
-  //1. there needs to be a clear all fields function. all fields cleared
-  //2. there needs to be a edit functionality.        fields shift from locked to can edit
-  //3. there needs to be a save function.             (PUT)
-  //4. there needs to be a save as new function.      (POST)
-
   render() {
     let {designation, mass, vm, bc} = this.props.cardData
     return (
@@ -82,7 +76,7 @@ class Constants extends Component {
         <div className="constantButtons">
           <button onClick={()=>this.clearFields()}>Reset Constants</button>
           <button onClick={()=>this.save()}>Save Constants</button>
-          <button onClick={()=>this.saveNew()}>Save as New Card</button>
+          <button onClick={()=>this.saveNew()}>Save as New</button>
         </div>
         <div className="constantMini">
           <div>
@@ -103,14 +97,24 @@ class Constants extends Component {
           </div>
         </div>
         <div className="constantMini">
-          Muzzle Velocity:
-          <input placeholder="Muzzle Velocity" onChange={e=>this.changeHandler3(e.target.value)}/>
-          {this.state.vMIn !== 0? this.state.vMIn:vm}
+          <div>
+            Muzzle Velocity:
+          </div>
+          <div>
+            <input placeholder="Muzzle Velocity" onChange={e=>this.changeHandler3(e.target.value)}/>
+          </div>
+          <div>
+            {this.state.vMIn !== 0? this.state.vMIn:vm}
+          </div>
         </div>
         <div className="constantMini">
+        <div>
           Ballistic Coefficient:
+          </div>
           <input placeholder="Ballistic Coefficient" onChange={e=>this.changeHandler4(e.target.value)}/>
+          <div>
           {this.state.bCIn !== 0? this.state.bCIn:bc}
+          </div>
         </div>
         <Inputs/>
       </div>

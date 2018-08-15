@@ -3,9 +3,10 @@ import Nav from '../nav/Nav'
 
 export default () => {
   return (
-    <div className="headerBox">
-        
-      This is The Header
+    <div className='headerMaster'>   
+      <div className='headerChild'>
+        SPOTTER
+      </div>
       <Nav/>
     </div>
   )

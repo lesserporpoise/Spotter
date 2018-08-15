@@ -18,24 +18,31 @@ class Inputs extends Component {
     return (
       <div>
         <div>
-        Range<input placeholder="Range" onChange={(e)=>this.props.ducksRange(e.target.value)}/>
-        <span>{this.props.range}</span><br/>
+          <div>
+            Range
+          </div>
+          <input placeholder="Range" onChange={(e)=>this.props.ducksRange(e.target.value)}/>
+          <div>
+            {this.props.range}
+          </div>
         </div>
-        
         <div>
-        Wind Speed<input placeholder="Wind Speed" onChange={(e)=>this.props.ducksWind(e.target.value)}/>
-        <span>{this.props.windSpeed}</span><br/>
+          <div>
+            Wind Speed
+          </div>
+          <input placeholder="Wind Speed" onChange={(e)=>this.props.ducksWind(e.target.value)}/>
+          <div>
+            {this.props.windSpeed}
+          </div>
         </div>
-
-
-
-
         <Outputs/>
         <Graph/>
       </div>
     )
   }
 }
+
+
 function mapStateToProps(state){
   return{
     cardData:state.cardData,

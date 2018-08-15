@@ -14,12 +14,11 @@ class Graph extends Component{
                     {
                         label:['Vacuum Flight'],
                         data:[],
-                        backgroundColor:['rgba(0,149,127,0.75)']
-                    },
+                        backgroundColor:['rgba(112,112,112,.8)'],                    },
                     {
                         label:['True Flight'],
                         data:[],
-                        backgroundColor:['rgba(218,165,32,0.75)']
+                        backgroundColor:['#14FF2F']
                     }
                 ]
             }
@@ -60,12 +59,12 @@ computeData(){
             <Line
                 data={this.state.graphData}
                 options={{
-                    maintainAspectRatio: false,
+                    maintainAspectRatio: true,
                     scales:{
                         yAxes:[{
                             ticks:{
-                                max:10,
-                                min:-50,
+                                max:5,
+                                min:-40,
                                 stepSize:5
                             }
                         }]

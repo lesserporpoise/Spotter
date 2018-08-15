@@ -37,15 +37,17 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Header/>
-        <Switch>
-          <Route exact path="/"   component={Cards}/>
-          <Route path="/form"     component={Form}/>
-          <Route path="/library"  component={Library}/>
-          <Route path="/myloads"  component={MyLoads}/>
-          <Route path="/admin"    component={Admin}/>
-        </Switch>
+      <div className='appMaster'>
+        <div className='appChild'>
+          <Header/>
+          <Switch>
+            <Route exact path="/"   component={Cards}/>
+            <Route path="/form"     component={Form}/>
+            <Route path="/library"  component={Library}/>
+            <Route path="/myloads"  component={MyLoads}/>
+            <Route path="/admin"    component={Admin}/>
+          </Switch>
+        </div>
       </div>
     );
   }

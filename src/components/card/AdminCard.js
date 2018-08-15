@@ -4,6 +4,11 @@ import {Link} from 'react-router-dom'
 import {fillForm,} from '../../ducks/reducer'
 
  class AdminCard extends Component {
+   constructor(props){
+   super(props)
+   this.state={}
+   }
+   
   render() {
     const {userid,designation,mass,vm,bc,loadid} = this.props;
     return (
