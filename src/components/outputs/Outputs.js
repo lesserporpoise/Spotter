@@ -20,7 +20,7 @@ class Outputs extends Component{
       let gtokg = 0.00006479891;
       let fpstomps = 0.3048;
       let flightTime = ((this.props.range*3)/this.props.velocity);
-      let downer = ((.5*this.state.g)*Math.pow(flightTime,2))
+      let downer = (((.5*this.state.g)*Math.pow(flightTime,2))*12)
       this.setState({drop:downer});
       let vertMoa = downer/((this.props.range*1.047)/100)
       this.setState({comeUp:vertMoa})
