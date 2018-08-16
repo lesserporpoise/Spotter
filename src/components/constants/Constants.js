@@ -78,40 +78,40 @@ class Constants extends Component {
             <button onClick={()=>this.save()}>Save Constants</button>
             <button onClick={()=>this.saveNew()}>Save as New</button>
         </div>
-        <div className="constantChild">
+        <div className="constantChild child">
           <div className="constantMini">
-            <div className="constantSub">
+            <div className="constantSub sub">
               Designation:
             </div>
               <input className="constantInput" placeholder="Designation" onChange={e=>this.changeHandler1(e.target.value)}/>
-            <div className="constantSub">
+            <div className="constantSub sub">
               {this.state.desIn !== '?'? this.state.desIn:designation}
             </div>
           </div>
           <div className="constantMini">
-            <div className="constantSub">
+            <div className="constantSub sub">
               Mass:
             </div>
               <input className="constantInput" placeholder="Mass" onChange={e=>this.changeHandler2(e.target.value)}/>
-            <div className="constantSub"> 
+            <div className="constantSub sub"> 
               {this.state.massIn !== 0? this.state.massIn:mass}
             </div>
           </div>
           <div className="constantMini">
-            <div className="constantSub">
+            <div className="constantSub sub">
               Velocity:
             </div>
               <input className="constantInput" placeholder="Muzzle Velocity" onChange={e=>this.changeHandler3(e.target.value)}/>
-            <div className="constantSub">
+            <div className="constantSub sub">
               {this.state.vMIn !== 0? this.state.vMIn:vm}
             </div>
           </div>
           <div className="constantMini">
-            <div className="constantSub">
+            <div className="constantSub sub">
               Ballistic Co:
             </div>
               <input className="constantInput" placeholder="Ballistic Coefficient" onChange={e=>this.changeHandler4(e.target.value)}/>
-            <div className="constantSub">
+            <div className="constantSub sub">
               {this.state.bCIn !== 0? this.state.bCIn:bc}
             </div>
           </div>

@@ -14,11 +14,11 @@ class Graph extends Component{
                     {
                         label:['Vacuum Flight'],
                         data:[],
-                        backgroundColor:['rgba(112,112,112,.8)'],                    },
+                        backgroundColor:['#006603'],                    },
                     {
                         label:['True Flight'],
                         data:[],
-                        backgroundColor:['#14FF2F']
+                        backgroundColor:['#FF6600']
                     }
                 ]
             }
@@ -53,25 +53,51 @@ computeData(){
 
   render(){
       return(
-        <div className="graphBox">
-            <button onClick={()=>{this.computeData()}}>Show Flight Path</button>
+        <div className="graphMaster">
+            <button className="spreadButton" onClick={()=>{this.computeData()}}>Show Flight Path</button>
             <br/>
-            <Line
-                data={this.state.graphData}
-                options={{
-                    maintainAspectRatio: true,
-                    scales:{
-                        yAxes:[{
-                            ticks:{
-                                max:5,
-                                min:-40,
-                                stepSize:5
+            <div className="graphChild child">
+                <Line
+                    data={this.state.graphData}
+                    options={{
+                        legend:{
+                            labels:{
+                                fontColor:'rgba(255,255,255,0.85)',
+                                boxWidth:80,
+                                fontSize:18,
+                                fontFamily:"'Arial'",
                             }
-                        }]
-                    }
+                        },
+                        maintainAspectRatio: true,
+                        scales:{
+                            yAxes:[{
+                                gridLines:{
+                                    display:true,
+                                    color:"rgba(255,255,255,0.85)",
+                                    zeroLineColor:'rgba(255,255,255,0.85)',
+                                    zeroLineWidth: 3,
+                                },
+                                ticks:{
+                                    max:5,
+                                    min:-30,
+                                    stepSize:5,
+                                    fontColor:'rgba(255,255,255,0.85)',
+                                }
+                            }],
+                            xAxes:[{
+                                gridLines:{
+                                    display:true,
+                                    color:"rgba(255,255,255,0.85)"
+                                },
+                                ticks:{
+                                    fontColor:'rgba(255,255,255,0.85)'
+                                }
+                            }],
+                        }
 
-                }}
-            />
+                    }}
+                />
+            </div>
         </div>
       )
   }

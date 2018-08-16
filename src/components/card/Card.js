@@ -14,15 +14,15 @@ class Card extends Component{
     const {userid,designation,mass,vm,bc,loadid} = this.props;
     return(
     <div className='cardMaster'>
-      <div onClick={()=>{this.props.fillForm({userid,loadid,designation,mass,vm,bc});this.props.yesSave()}}>
+      <div className='cardChild' onClick={()=>{this.props.fillForm({userid,loadid,designation,mass,vm,bc});this.props.yesSave()}}>
       <Link to="/form">
-        <h1 className='cardItem'>Designation: {designation}</h1>
-        <h1 className='cardItem'>Mass: {mass}</h1>
-        <h1 className='cardItem'>Muzzle Velocity:{vm}</h1>
-        <h1 className='cardItem'>Ballistic Coefficient:{bc}</h1>
+        <div className='cardItem'>{designation}</div>
+        <div className='cardItem'>Mass: {mass}</div>
+        <div className='cardItem'>Muzzle Velocity:{vm}</div>
+        <div className='cardItem'>Ballistic Coefficient:{bc}</div>
       </Link>
         <div className='deleteBox'>
-          <button onClick={()=>this.props.byeByeCard(loadid)}>Delete</button>
+          <button className="cardDelete" onClick={()=>this.props.byeByeCard(loadid)}>Delete</button>
         </div>
       </div>
     </div>

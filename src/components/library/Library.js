@@ -10,18 +10,19 @@ class Library extends Component{
     }
     render(){
         return(
-            <div>
-                <Link to="/myloads"><button>My Loads</button></Link>
-                Library Component
-                <h1>{this.props.defaultData.map((val,y)=>
-                <div key={y}>
+            <div className='cardUpOne'>
+                <div className='linkHolder'>
+                    <Link to="/myloads"><button className="linkPair">My Loads</button></Link>
+                </div>
+                <div className="cardTainer">{this.props.defaultData.map((val,y)=>
+                <div className="cardBox" key={y}>
                   <DefaultCard
                   loadid=       {val.loadid} 
                   designation=  {val.designation}
                   mass=         {val.mass} 
                   vm=           {val.vm} 
                   bc=           {val.bc}/>
-                </div>)}</h1>
+                </div>)}</div>
             </div>
         )
     }

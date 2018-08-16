@@ -13,20 +13,16 @@ import {fillForm,} from '../../ducks/reducer'
     const {userid,designation,mass,vm,bc,loadid} = this.props;
     return (
       <div className='cardMaster'>
-        <div>
             <Link to="/form">
-                <div onClick={()=>{this.props.fillForm({userid,loadid,designation,mass,vm,bc})}}>
-                    <h1 className='cardItem'>UserId: {userid}</h1>
-                    <h1 className='cardItem'>LoadId: {loadid}</h1>
-                    <h1 className='cardItem'>Designation: {designation}</h1>
-                    <h1 className='cardItem'>Mass: {mass}</h1>
-                    <h1 className='cardItem'>Muzzle Velocity:{vm}</h1>
-                    <h1 className='cardItem'>Ballistic Coefficient:{bc}</h1>
+                <div className='cardChild' onClick={()=>{this.props.fillForm({userid,loadid,designation,mass,vm,bc})}}>
+                    <div className='cardItem'>UserId: {userid}</div>
+                    <div className='cardItem'>LoadId: {loadid}</div>
+                    <div className='cardItem'>{designation}</div>
+                    <div className='cardItem'>Mass: {mass}</div>
+                    <div className='cardItem'>Muzzle Velocity:{vm}</div>
+                    <div className='cardItem'>Ballistic Coefficient:{bc}</div>
                     </div>
             </Link>
-        </div>
-      
-      
       </div> 
     )
   }

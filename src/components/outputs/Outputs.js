@@ -40,27 +40,35 @@ class Outputs extends Component{
 
   render(){
     return (
-      <div className='outputBox'>
-        <div className='outputMini'>
-          <button onClick={()=>{this.makeDaNumbers()}}>Calculate</button>
+      <div className='outputMaster'>
+        <div className='outputButtonHolder'>
+          <button className="spreadButton" onClick={()=>{this.makeDaNumbers()}}>Calculate</button>
         </div>
-        <div className='outputMini'>
-          <h1>Bullet Drop(in):{this.state.drop}</h1>
-        </div>
-        <div className='outputMini'>
-          <h1>Wind Shift(in):{this.state.shift}</h1>
-        </div>
-        <div className='outputMini'>
-          <h1>Velocity at Impact(fps):{this.state.finalVelocity}</h1>
-        </div>
-        <div className='outputMini'>
-          <h1>Energy at Impact(joules):{this.state.finalEnergy}</h1>
-        </div>
-        <div className='outputMini'>
-          <h1>Vertical MOA Correction:{this.state.comeUp}</h1>
-        </div>
-        <div className='outputMini'>
-          <h1>Horizontal MOA Correction:{this.state.windage}</h1>
+        <div className='outputChild child'>
+          <div className='outputMini'>
+            <div className='outputSub sub'>Bullet Drop(in):</div>
+            <div className='outputSub sub'>{this.state.drop.toFixed(2)}</div>
+          </div>
+          <div className='outputMini'>
+            <div className='outputSub sub'>Wind Shift(in):</div>
+            <div className='outputSub sub'>{this.state.shift.toFixed(2)}</div>
+          </div>
+          <div className='outputMini'>
+            <div className='outputSub sub'>Impact Velocity(fps):</div>
+            <div className='outputSub sub'>{this.state.finalVelocity.toFixed(2)}</div>
+          </div>
+          <div className='outputMini'>
+            <div className='outputSub sub'>Impact energy(J):</div>
+            <div className='outputSub sub'>{this.state.finalEnergy.toFixed(2)}</div>
+          </div>
+          <div className='outputMini'>
+            <div className='outputSub sub'>Vertical MOA:</div>
+            <div className='outputSub sub'>{this.state.comeUp.toFixed(2)}</div>
+          </div>
+          <div className='outputMini'>
+            <div className='outputSub sub'>Horizontal MOA:</div>
+            <div className='outputSub sub'>{this.state.windage.toFixed(2)}</div>
+          </div>
         </div>
       </div>
     )

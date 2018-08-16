@@ -14,11 +14,10 @@ class Cards extends Component {
 
   render() {
     return (
-      <div className='cardsMaster'>
-        This is the Cards View
-        <Link to="/myloads"><button>MyLoads</button></Link>
-        <Link to="/library"><button>Library</button></Link>
-        <Link to="/admin"><button>Admin</button></Link>
+      <div className='linkHolder cardSuperBox'>
+        <Link to="/myloads"><button className="cardNavButton">MyLoads</button></Link>
+        <Link to="/library"><button className="cardNavButton">Library</button></Link>
+        <Link to="/admin"><button className="cardNavButton">Admin</button></Link>
       </div>
       
     )

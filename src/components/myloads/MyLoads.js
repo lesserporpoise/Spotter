@@ -20,12 +20,12 @@ class MyLoads extends Component{
     render(){
       console.log(this.props)
         return(
-            <div>
-              
-                <Link to="/library"><button>Library</button></Link>
-                MyLoads Component
-                <h1>{this.props.userData.map((val,y)=>
-                <div key={y}>
+            <div className='cardUpOne'>
+                <div className='linkHolder'>
+                  <Link to="/library"><button className="linkPair">Library</button></Link>
+                </div>
+                <div className="cardTainer">{this.props.userData.map((val,y)=>
+                <div className="cardBox" key={y}>
                   <Card
                   loadid=       {val.loadid} 
                   designation=  {val.designation}
@@ -33,7 +33,7 @@ class MyLoads extends Component{
                   vm=           {val.vm} 
                   bc=           {val.bc}
                   byeByeCard=   {this.deleteCard}/>
-                </div>)}</h1>
+                </div>)}</div>
             </div>
         )
     }

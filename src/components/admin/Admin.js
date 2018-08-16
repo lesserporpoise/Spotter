@@ -19,10 +19,9 @@ class Admin extends Component {
 
   render() {
     return (
-      <div>
-        This is the Admin Page
-        <h1>{this.props.defaultData?this.props.defaultData.map((val,y)=>
-            <div key={y}>
+      <div className='cardUpOne'>
+        <div className="cardTainer">{this.props.defaultData?this.props.defaultData.map((val,y)=>
+            <div className="cardBox" key={y}>
                   <AdminCard
                   loadid=       {val.loadid} 
                   designation=  {val.designation}
@@ -32,9 +31,9 @@ class Admin extends Component {
                   save=         {this.noSave}
                   byeByeCard=   {this.deleteCard}/>
             </div>):"woopsie..."}
-        </h1>
-        <h1>{this.state.adminData[0]?this.state.adminData.map((val,y)=>
-            <div key={y}>
+        </div>
+        <div className="cardTainer">{this.state.adminData[0]?this.state.adminData.map((val,y)=>
+            <div className="cardBox" key={y}>
                   <AdminCard
                   userid=       {val.userid}
                   loadid=       {val.loadid} 
@@ -45,7 +44,7 @@ class Admin extends Component {
                   save=         {this.yesSave}
                   byeByeCard=   {this.deleteCard}/>
             </div>):"woopsie..."}
-        </h1>
+        </div>
       </div>
     )
   }
