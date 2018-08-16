@@ -257,18 +257,30 @@ body{
     border-radius:7px;
     margin: 10px 0 25px 0;
 }
-/* 
-@media(min-width:500px){
-
-
-}
 
 @media(min-width:800px){
 
+.split1{
+    margin:0 0 0 60px;
+    width: 150px;
+}
+.split2{
+    width: 150px;
+}
+.outputMini{
+    width:375px;
 
 }
+.outputChild{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:space-around;
+    height:220px;
+}
+}
 
-@media(min-width:1000px){
+@media(min-width:1200px){
 
 
-} */
+}

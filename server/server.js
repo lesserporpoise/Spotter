@@ -6,6 +6,7 @@ const massive = require('massive')
 const controller = require('./controller')
 const bodyParser = require("body-parser")
 const app = express();
+app.use( express.static( `${__dirname}/../build` ) );
 const{SERVER_PORT , REACT_APP_DOMAIN , REACT_APP_CLIENT_ID , CLIENT_SECRET , SESSION_SECRET, CONNECTION_STRING} = process.env;
 
 app.use(bodyParser.json())
