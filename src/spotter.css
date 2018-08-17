@@ -21,7 +21,7 @@ button{	-moz-box-shadow:inset 0px 1px 3px 0px #006603;
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
-	padding:11px 23px;
+    padding:11px 23px;
 	text-decoration:none;
     text-shadow:0px -1px 0px #2b665e;
     margin:25px 0;
@@ -49,6 +49,9 @@ button:focus{
 .spreadButton{
     width:100%;
     margin:15px 0;
+}
+.saveNew{
+    min-width:120px;
 }
 
 a{
@@ -203,9 +206,13 @@ div{
 .linkPair{
     margin:0;
 }
+.formWrapper{
+    height:fit-content;
+    width:100%;
+}
 .formMaster{
     width:100%;
-    height:93vh;
+    height:fit-content;
     display:flex;
     flex-direction:column;
     align-items:center;
