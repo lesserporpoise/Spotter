@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import {revert,newCard} from '../../ducks/reducer'
 import axios from 'axios'
-import _ from 'lodash'
 
 class Constants extends Component {
   constructor(props){
