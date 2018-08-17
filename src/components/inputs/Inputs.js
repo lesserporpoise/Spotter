@@ -17,7 +17,7 @@ class Inputs extends Component {
             <div className="inputSub sub">
               Target Range
             </div>
-            <input placeholder="range in yards..." onChange={(e)=>this.props.ducksRange(e.target.value)}/>
+            <input placeholder="in yards..." onChange={(e)=>this.props.ducksRange(e.target.value)}/>
             <div className="inputSub sub">
               {this.props.range}
             </div>
@@ -26,7 +26,7 @@ class Inputs extends Component {
             <div className="inputSub sub">
               Wind Speed
             </div>
-            <input placeholder="wind in mph..." onChange={(e)=>this.props.ducksWind(e.target.value)}/>
+            <input placeholder="in mph..." onChange={(e)=>this.props.ducksWind(e.target.value)}/>
             <div className="inputSub sub">
               {this.props.windSpeed}
             </div>
