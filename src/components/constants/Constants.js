@@ -15,6 +15,7 @@ class Constants extends Component {
     }
   }
 
+
   clearFields(){
     this.props.revert();
   }
@@ -87,7 +88,7 @@ class Constants extends Component {
         <div className="constantButtons">
             <button className="constantButton" onClick={()=>this.clearFields()}>Reset</button>
             <button className="constantButton" onClick={()=>this.save()}>Save</button>
-            <button className="constantButton" onClick={()=>this.saveNew()}>Save New</button>
+            <button className="constantButton saveNew" onClick={()=>this.saveNew()}>Save New</button>
         </div>
         <div className="constantChild child">
           <div className="constantMini">
