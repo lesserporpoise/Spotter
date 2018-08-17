@@ -18,7 +18,6 @@ class MyLoads extends Component{
     
 
     render(){
-      console.log(this.props)
         return(
             <div className='cardUpOne'>
                 <div className='linkHolder'>
