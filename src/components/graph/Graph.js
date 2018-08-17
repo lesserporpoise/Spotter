@@ -53,7 +53,7 @@ computeData(){
 
   render(){
       return(
-        <div className="graphMaster">
+        <div className="graphMaster shifty">
             <button className="spreadButton" onClick={()=>{this.computeData()}}>Show Flight Path</button>
             <br/>
             <div className="graphChild child">

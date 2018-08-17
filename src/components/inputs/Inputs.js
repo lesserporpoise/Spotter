@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-import Graph from '../graph/Graph'
-import Outputs from '../outputs/Outputs'
 import {connect} from 'react-redux'
 import {ducksRange,ducksWind,ducksDir} from '../../ducks/reducer'
 
@@ -11,18 +9,15 @@ class Inputs extends Component {
 
     }
   }
-
-
-
   render() {
     return (
-      <div className="inputMaster">
+      <div className="inputMaster shifty">
         <div className="inputChild child">
           <div className="inputMini">
             <div className="inputSub sub">
-              Range
+              Target Range
             </div>
-            <input placeholder="Range" onChange={(e)=>this.props.ducksRange(e.target.value)}/>
+            <input placeholder="range in yards..." onChange={(e)=>this.props.ducksRange(e.target.value)}/>
             <div className="inputSub sub">
               {this.props.range}
             </div>
@@ -31,14 +26,12 @@ class Inputs extends Component {
             <div className="inputSub sub">
               Wind Speed
             </div>
-            <input placeholder="Wind Speed" onChange={(e)=>this.props.ducksWind(e.target.value)}/>
+            <input placeholder="wind in mph..." onChange={(e)=>this.props.ducksWind(e.target.value)}/>
             <div className="inputSub sub">
               {this.props.windSpeed}
             </div>
           </div>
         </div>
-        <Outputs/>
-        <Graph/>
       </div>
     )
   }

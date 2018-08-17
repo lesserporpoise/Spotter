@@ -40,7 +40,7 @@ class Outputs extends Component{
 
   render(){
     return (
-      <div className='outputMaster'>
+      <div className='outputMaster shifty'>
         <div className='outputButtonHolder'>
           <button className="spreadButton" onClick={()=>{this.makeDaNumbers()}}>Calculate</button>
         </div>

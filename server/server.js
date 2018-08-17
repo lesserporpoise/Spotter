@@ -5,9 +5,10 @@ const axios = require('axios');
 const massive = require('massive')
 const controller = require('./controller')
 const bodyParser = require("body-parser")
+const path = require('path');
 const app = express();
-app.use( express.static( `${__dirname}/../build` ) );
-const{SERVER_PORT , REACT_APP_DOMAIN , REACT_APP_CLIENT_ID , CLIENT_SECRET , SESSION_SECRET, CONNECTION_STRING} = process.env;
+app.use( express.static( `${__dirname}/../build` ));
+const{SERVER_PORT,SESSION_SECRET, CONNECTION_STRING} = process.env;
 
 app.use(bodyParser.json())
 
@@ -86,6 +87,8 @@ app.delete('/spotter/api/delete/:id',controller.deleteLoad);
 //     req.session.destroy();
 //     res.redirect('http://localhost:3000/')
 // })
+
+app.get('*', (req, res)=>{res.sendFile(path.join(__dirname, '../build/index.html'))});
 
 app.listen(SERVER_PORT,()=>{
     console.log(`Wubstep Wubbeth on port: ${SERVER_PORT}`)

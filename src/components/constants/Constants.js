@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Inputs from '../inputs/Inputs'
 import {connect} from 'react-redux'
 import {revert,newCard} from '../../ducks/reducer'
 import axios from 'axios'
@@ -72,18 +71,18 @@ class Constants extends Component {
   render() {
     let {designation, mass, vm, bc} = this.props.cardData
     return (
-      <div className="constantMaster">
+      <div className="constantMaster shifty">
         <div className="constantButtons">
-            <button onClick={()=>this.clearFields()}>Reset Constants</button>
-            <button onClick={()=>this.save()}>Save Constants</button>
-            <button onClick={()=>this.saveNew()}>Save as New</button>
+            <button className="constantButton" onClick={()=>this.clearFields()}>Reset</button>
+            <button className="constantButton" onClick={()=>this.save()}>Save</button>
+            <button className="constantButton" onClick={()=>this.saveNew()}>Save New</button>
         </div>
         <div className="constantChild child">
           <div className="constantMini">
             <div className="constantSub sub">
-              Designation:
+              Name:
             </div>
-              <input className="constantInput" placeholder="Designation" onChange={e=>this.changeHandler1(e.target.value)}/>
+              <input className="constantInput" placeholder="enter a name..." onChange={e=>this.changeHandler1(e.target.value)}/>
             <div className="constantSub sub">
               {this.state.desIn !== '?'? this.state.desIn:designation}
             </div>
@@ -92,7 +91,7 @@ class Constants extends Component {
             <div className="constantSub sub">
               Mass:
             </div>
-              <input className="constantInput" placeholder="Mass" onChange={e=>this.changeHandler2(e.target.value)}/>
+              <input className="constantInput" placeholder="mass in grains..." onChange={e=>this.changeHandler2(e.target.value)}/>
             <div className="constantSub sub"> 
               {this.state.massIn !== 0? this.state.massIn:mass}
             </div>
@@ -101,7 +100,7 @@ class Constants extends Component {
             <div className="constantSub sub">
               Velocity:
             </div>
-              <input className="constantInput" placeholder="Muzzle Velocity" onChange={e=>this.changeHandler3(e.target.value)}/>
+              <input className="constantInput" placeholder="velocity in fps..." onChange={e=>this.changeHandler3(e.target.value)}/>
             <div className="constantSub sub">
               {this.state.vMIn !== 0? this.state.vMIn:vm}
             </div>
@@ -110,13 +109,12 @@ class Constants extends Component {
             <div className="constantSub sub">
               Ballistic Co:
             </div>
-              <input className="constantInput" placeholder="Ballistic Coefficient" onChange={e=>this.changeHandler4(e.target.value)}/>
+              <input className="constantInput" placeholder="0.0 - 1.0..." onChange={e=>this.changeHandler4(e.target.value)}/>
             <div className="constantSub sub">
               {this.state.bCIn !== 0? this.state.bCIn:bc}
             </div>
           </div>
         </div>
-        <Inputs/>
       </div>
     )
   }
