@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import {revert,newCard} from '../../ducks/reducer'
 import axios from 'axios'
-import _ from 'lodash'
 
 class Constants extends Component {
   constructor(props){
@@ -104,7 +103,7 @@ class Constants extends Component {
             <div className="constantSub sub">
               Mass:
             </div>
-              <input className="constantInput" placeholder="mass in grains..." onBlur={()=>this.autoDux()} onChange={e=>this.changeHandler2(e.target.value)}/>
+              <input className="constantInput" placeholder="in grains..." onBlur={()=>this.autoDux()} onChange={e=>this.changeHandler2(e.target.value)}/>
             <div className="constantSub sub"> 
               {this.state.massIn !== 0? this.state.massIn:mass}
             </div>
@@ -113,7 +112,7 @@ class Constants extends Component {
             <div className="constantSub sub">
               Velocity:
             </div>
-              <input className="constantInput" placeholder="velocity in fps..." onBlur={()=>this.autoDux()} onChange={e=>this.changeHandler3(e.target.value)}/>
+              <input className="constantInput" placeholder="in fps..." onBlur={()=>this.autoDux()} onChange={e=>this.changeHandler3(e.target.value)}/>
             <div className="constantSub sub">
               {this.state.vMIn !== 0? this.state.vMIn:vm}
             </div>
