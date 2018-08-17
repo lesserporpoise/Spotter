@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import {connect} from 'react-redux'
 import {revert,newCard} from '../../ducks/reducer'
 import axios from 'axios'
+import _ from 'lodash'
 
 class Constants extends Component {
   constructor(props){
@@ -54,18 +55,30 @@ class Constants extends Component {
       vMIn:vMIn?vMIn:this.props.cardData.vm,
       bCIn:bCIn?bCIn:this.props.cardData.bc})
   }
+
+  autoDux(){
+    console.log('wussup')
+    let {userid,desIn,massIn,vMIn,bCIn} = this.state
+    this.props.newCard({
+      userid:userid,
+      loadid:this.props.cardData.loadid,
+      designation:desIn,
+      mass:massIn,
+      vm:vMIn,
+      bc:bCIn});
+  }
   
   changeHandler1(val){
-    this.setState({desIn:val})
+    this.setState({desIn:val});
   }
   changeHandler2(val){
-    this.setState({massIn:val})
+    this.setState({massIn:val});
   }
   changeHandler3(val){
-    this.setState({vMIn:val})
+    this.setState({vMIn:val});
   }
   changeHandler4(val){
-    this.setState({bCIn:val})
+    this.setState({bCIn:val});
   }
 
   render() {
@@ -82,7 +95,7 @@ class Constants extends Component {
             <div className="constantSub sub">
               Name:
             </div>
-              <input className="constantInput" placeholder="enter a name..." onChange={e=>this.changeHandler1(e.target.value)}/>
+              <input className="constantInput" placeholder="enter a name..." onBlur={()=>this.autoDux()} onChange={(e)=>this.changeHandler1(e.target.value)}/>
             <div className="constantSub sub">
               {this.state.desIn !== '?'? this.state.desIn:designation}
             </div>
@@ -91,7 +104,7 @@ class Constants extends Component {
             <div className="constantSub sub">
               Mass:
             </div>
-              <input className="constantInput" placeholder="mass in grains..." onChange={e=>this.changeHandler2(e.target.value)}/>
+              <input className="constantInput" placeholder="mass in grains..." onBlur={()=>this.autoDux()} onChange={e=>this.changeHandler2(e.target.value)}/>
             <div className="constantSub sub"> 
               {this.state.massIn !== 0? this.state.massIn:mass}
             </div>
@@ -100,7 +113,7 @@ class Constants extends Component {
             <div className="constantSub sub">
               Velocity:
             </div>
-              <input className="constantInput" placeholder="velocity in fps..." onChange={e=>this.changeHandler3(e.target.value)}/>
+              <input className="constantInput" placeholder="velocity in fps..." onBlur={()=>this.autoDux()} onChange={e=>this.changeHandler3(e.target.value)}/>
             <div className="constantSub sub">
               {this.state.vMIn !== 0? this.state.vMIn:vm}
             </div>
@@ -109,7 +122,7 @@ class Constants extends Component {
             <div className="constantSub sub">
               Ballistic Co:
             </div>
-              <input className="constantInput" placeholder="0.0 - 1.0..." onChange={e=>this.changeHandler4(e.target.value)}/>
+              <input className="constantInput" placeholder="0.0 - 1.0..." onBlur={()=>this.autoDux()} onChange={e=>this.changeHandler4(e.target.value)}/>
             <div className="constantSub sub">
               {this.state.bCIn !== 0? this.state.bCIn:bc}
             </div>
