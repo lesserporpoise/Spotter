@@ -10,15 +10,23 @@ class DefaultCard extends Component{
   }
   
   render(){
-    const {userid,designation,mass,vm,bc,loadid} = this.props
+    const {userid,designation,mass,vm,bc,loadid,imgurl} = this.props
+    const bgStyle = {
+      backgroundImage: `url(${imgurl})`, 
+      backgroundSize: 'cover', 
+      backgroundRepeat: 'no-repeat',
+      backgroundPosition: 'center',
+      padding: '20px 0',
+    };
     return(
     <div className='cardMaster'>
         <Link to="/form">
-        <div className='cardChild' onClick={()=>{this.props.fillForm({userid,loadid,designation,mass,vm,bc});this.props.noSave()}}>
-          <div className='cardItem'>{designation}</div>
-          <div className='cardItem'>Mass: {mass}</div>
-          <div className='cardItem'>Muzzle Velocity:{vm}</div>
-          <div className='cardItem'>Ballistic Coefficient:{bc}</div>
+        <div className='cardChild' onClick={()=>{this.props.fillForm({userid,loadid,designation,mass,vm,bc});this.props.noSave()}}
+                                   style={bgStyle}>
+          <div className='cardItem marv'>{designation}</div>
+          <div className='cardItem marv'>Mass: {mass}</div>
+          <div className='cardItem marv'>Muzzle Velocity:{vm}</div>
+          <div className='cardItem marv'>Ballistic Coefficient:{bc}</div>
         </div>
         </Link>
     </div>

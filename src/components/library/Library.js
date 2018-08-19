@@ -16,12 +16,7 @@ class Library extends Component{
                 </div>
                 <div className="cardTainer">{this.props.defaultData.map((val,y)=>
                 <div className="cardBox" key={y}>
-                  <DefaultCard
-                  loadid=       {val.loadid} 
-                  designation=  {val.designation}
-                  mass=         {val.mass} 
-                  vm=           {val.vm} 
-                  bc=           {val.bc}/>
+                  <DefaultCard {...val} />
                 </div>)}</div>
             </div>
         )

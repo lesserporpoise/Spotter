@@ -8,7 +8,8 @@ const initialState = {
         designation:'',
         mass:0,
         vm:0,
-        bc:0
+        bc:0,
+        imgurl: ''
     },
     canSave:true,
     range:100,
