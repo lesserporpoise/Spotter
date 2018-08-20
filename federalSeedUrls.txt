@@ -1,0 +1,674 @@
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('17 Hornet AMERICAN EAGLE VARMINT & PREDATOR', 20, 3610, 0.185, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/23/57/fp-ae-ae22350vp-223remvarmintpredator-r-879635.jpg?v=1&d=20180616T053531Z?mw=655&mh=440&hash=3C551581470773D7353DEE1A1BD98A9CC103A28A');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('204 Ruger V•SHOK NOSLER BALLISTIC TIP', 32, 4030, 0.206, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/40/fp-vs-p204b-204btip-lpsd-114369.jpg?v=1&d=20180628T220034Z?mw=655&mh=440&hash=29CCC3B80077F16A718F368E12DEC9D4BA39A393');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('204 Ruger V•SHOK NOSLER BALLISTIC TIP', 40, 3650, 0.239, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/40/fp-vs-p204b-204btip-lpsd-114369.jpg?v=1&d=20180628T220034Z?mw=655&mh=440&hash=29CCC3B80077F16A718F368E12DEC9D4BA39A393');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('22 Hornet AMERICAN EAGLE VARMINT & PREDATOR', 35, 3000, 0.109, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/23/57/fp-ae-ae22350vp-223remvarmintpredator-r-879635.jpg?v=1&d=20180616T053531Z?mw=655&mh=440&hash=3C551581470773D7353DEE1A1BD98A9CC103A28A');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('22 Hornet V•SHOK SPEER TNT GREEN', 30, 3150, 0.09, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/40/fp-vs-p22d-22hornet-generic-r-1713545.jpg?v=1&d=20180616T053357Z?mw=655&mh=440&hash=00A7C3F3EDCBA2873C6203DDA2ABE2A61AA793C6');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem AMERICAN EAGLE RIFLE', 75, 2775, 0.4, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/08/14/10/fp-ae223t75-223rem-75grtmj-rm-1413755.jpg?v=1&d=20180616T053537Z?mw=655&mh=440&hash=9506DA949EE02EEC721C20C5E8DFD59C25910BBA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem AMERICAN EAGLE RIFLE', 55, 3240, 0.269, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/13/23/fp-ae-ae223-223fmj-r-288579.jpg?v=1&d=20180616T053530Z?mw=655&mh=440&hash=8EEC34D65B722C784587DED2E62BDBD6C57D39FE');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem AMERICAN EAGLE RIFLE', 55, 3240, 0.269, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/21/fp-ae-ae223bk-223fmj-open-l-288045.jpg?v=1&d=20180616T053339Z?mw=655&mh=440&hash=CB810EF72DC4808F85379670824E012533F68518');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem AMERICAN EAGLE RIFLE', 62, 3020, 0.307, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/14/fp-ae-ae223n-223fmj-pkg-r-115305.jpg?v=1&d=20180616T053418Z?mw=655&mh=440&hash=3C7CD9E5294501EFE905772A025248C285BA36A2');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem AMERICAN EAGLE RIFLE', 55, 3240, 0.269, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/13/21/fp-ae-ae223j-223remfmj-pkg-r-288377.jpg?v=1&d=20180616T053530Z?mw=655&mh=440&hash=29118F9906D3482FBB8E0327090905D009BDC073');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem AMERICAN EAGLE RIFLE', 55, 3240, 0.269, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/22/fp-ae-ae223bl-223remfmj-r-288542.jpg?v=1&d=20180616T053340Z?mw=655&mh=440&hash=FECFF94CCA453E31587CAC9D276A3D5A84592E58');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem AMERICAN EAGLE RIFLE', 55, 3240, 0.269, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/22/08/fp-ae-ae223f-223fmj-r-288672.jpg?v=1&d=20180616T053553Z?mw=655&mh=440&hash=784D97D7027C520FB54FC532A1F3CC27134F2493');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem AMERICAN EAGLE VARMINT', 50, 3325, 0.204, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/00/fp-ae-ae223g-223remjhp-r-1710097.jpg?v=1&d=20180616T053333Z?mw=655&mh=440&hash=F9441198B721ED533F1DAA1A78258C50FC16EBC9');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem AMERICAN EAGLE VARMINT & PREDATOR', 50, 3325, 0.204, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/23/57/fp-ae-ae22350vp-223remvarmintpredator-r-879635.jpg?v=1&d=20180616T053531Z?mw=655&mh=440&hash=3C551581470773D7353DEE1A1BD98A9CC103A28A');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem FUSION MSR', 62, 2750, 0.31, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/15/fu-f223msr1-223rem-msr-rm-1399568.jpg?v=1&d=20180616T053337Z?mw=655&mh=440&hash=09F39C8D29C9EFD3577A06371A362E875E8979B9');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem FUSION RIFLE', 62, 3000, 0.31, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/06/07/19/05/fu-rifle-generic-pkg-r-270208.jpg?v=1&d=20180616T053555Z?mw=655&mh=440&hash=0D8A16CF188F673D363E8BB96523DCD3169E1DA7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem GOLD MEDAL BERGER', 73, 2800, 0.348, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/31/fp-gm-gm223bh73-goldmedalberger223remotm-r-1274905.jpg?v=1&d=20180616T053342Z?mw=655&mh=440&hash=03472312341CB5221DCA8CF51D9D5450000E0A62');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem GOLD MEDAL SIERRA MATCHKING', 69, 2950, 0.301, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/34/fp-gm-gm308m2-308winsierramatchking-rpsd-1421744.jpg?v=1&d=20180620T214600Z?mw=655&mh=440&hash=B073041B458D7D09E30E4E07A9CB15DBC64D13B7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem GOLD MEDAL SIERRA MATCHKING', 77, 2720, 0.372, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/34/fp-gm-gm308m2-308winsierramatchking-rpsd-1421744.jpg?v=1&d=20180620T214600Z?mw=655&mh=440&hash=B073041B458D7D09E30E4E07A9CB15DBC64D13B7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem NOSLER PARTITION', 60, 3160, 0.227, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p223q-223rem-r-1274953.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C710C65BBC5195C4B2C5196E7A96AE6BCE64EB07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem POWER•SHOK RIFLE', 64, 3050, 0.256, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem POWER•SHOK RIFLE', 55, 3240, 0.222, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/17/19/fp-power-223a-223remsp-r-1337282.jpg?v=1&d=20180616T053542Z?mw=655&mh=440&hash=EC8FC521D3D0C4995B8E16B932768A5B770C872B');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem TROPHY BONDED TIP', 62, 3050, 0.255, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/40/fp-p223tt3-223remtbt-r-1331591.jpg?v=1&d=20180616T053433Z?mw=655&mh=440&hash=5C8468EFADEFD4FE55A00A85DB8B8EF4383B77DA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem V•SHOK NOSLER BALLISTIC TIP', 55, 3240, 0.266, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/40/fp-vs-p204b-204btip-lpsd-114369.jpg?v=1&d=20180628T220034Z?mw=655&mh=440&hash=29CCC3B80077F16A718F368E12DEC9D4BA39A393');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem V•SHOK NOSLER BALLISTIC TIP', 40, 3700, 0.221, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/40/fp-vs-p204b-204btip-lpsd-114369.jpg?v=1&d=20180628T220034Z?mw=655&mh=440&hash=29CCC3B80077F16A718F368E12DEC9D4BA39A393');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('223 Rem V•SHOK SPEER TNT GREEN', 43, 3600, 0.151, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/40/fp-vs-p223r-cfrifle-generic-r-1713551.jpg?v=1&d=20180616T053357Z?mw=655&mh=440&hash=B33C171A9DE6597B0182F26879D8F90A09A4AC29');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('5.56x45mm AMERICAN EAGLE RIFLE', 62, 3020, 0.349, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/13/23/fp-ae-xm855bk150-556fmj-r-288588.jpg?v=1&d=20180616T053530Z?mw=655&mh=440&hash=F6D0C1AFD41B60DEF2180746EC6E83D3914E8774');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('5.56x45mm AMERICAN EAGLE RIFLE', 55, 3165, 0.246, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/13/17/fp-ae-xm193lpc120-556fmlac-pkg-l-287915.jpg?v=1&d=20180616T053529Z?mw=655&mh=440&hash=2412F2CE6B01AA551E1D9F05656A20E933965E3E');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('5.56x45mm AMERICAN EAGLE RIFLE', 55, 3165, 0.246, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/13/20/fp-ae-xm193af90-556fmj-l-288120.jpg?v=1&d=20180616T053530Z?mw=655&mh=440&hash=7B64D294BC11A28D4F7EF83E72743005702F3B78');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('5.56x45mm AMERICAN EAGLE RIFLE', 62, 3020, 0.349, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/13/18/fp-ae-xm855lpc120-556fmlac-pkg-l-287974.jpg?v=1&d=20180616T053529Z?mw=655&mh=440&hash=857731C97698CC70161DE36D185E37B803137096');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('5.56x45mm AMERICAN EAGLE RIFLE', 55, 3165, 0.246, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/02/fp-xm193lc1ac1-556fmj-pkg-r-321242.jpg?v=1&d=20180616T053333Z?mw=655&mh=440&hash=F360A850D1607FECE53E7E2FCDEA1B07A43BF7BB');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('5.56x45mm AMERICAN EAGLE RIFLE', 62, 3020, 0.349, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/02/fp-ae-xm855af90-556fmj-l-287958.jpg?v=1&d=20180616T053333Z?mw=655&mh=440&hash=79397C33F8C79B68A0A73BD0ED1B153735BD1C86');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('224 Valkyrie AMERICAN EAGLE RIFLE', 75, 3000, 0.35, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/23/fp-ae224vlk1-224valkyrietmj-rm-1478268.jpg?v=1&d=20180616T053444Z?mw=655&mh=440&hash=359D487302EB7E003C0427F1A55756172C70928E');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('224 Valkyrie FUSION MSR', 90, 2700, 0.45, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/23/fp-f224vlkmsr1-224valkyriesp-rm-1478280.jpg?v=1&d=20180616T053444Z?mw=655&mh=440&hash=DBFF0BA2C8824AEFAADF4C3EE1A8DA060940F172');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('224 Valkyrie GOLD MEDAL SIERRA MATCHKING', 90, 2700, 0.563, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/34/fp-gm224vlk1-goldmedal224valkyrie-rm-1478303.jpg?v=1&d=20180616T053342Z?mw=655&mh=440&hash=A6B693C03F33DD92FB62F22509F2BBA5FF0442D7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('224 Valkyrie V•SHOK NOSLER BALLISTIC TIP', 60, 3300, 0.270, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/06/20/22/25/fp-p224vlkbt1-224valkyriebtv-rmpsd-1478315.jpg?v=1&d=20180620T222601Z?mw=655&mh=440&hash=D60FE29514D798D9EFD6A85F4D7064327AF1EF6B');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('220 Swift V•SHOK NOSLER BALLISTIC TIP', 40, 4250, 0.221, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/00/fp-p220b-220swiftbt-rpsd-1360389.jpg?v=1&d=20180628T220017Z?mw=655&mh=440&hash=42CDFDC6F72DC292E44859E30C7BA1F6FFE70EA3');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6mm Creedmoor GOLD MEDAL BERGER', 105, 3025, 0.536, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/18/fp-gm6crdbh1-6mmcreedmoorbergerhybridotm-rm-1437180.jpg?v=1&d=20180616T053442Z?mw=655&mh=440&hash=DC47865E99BA5F623137CB34E7A48FFE18F97A29');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win AMERICAN EAGLE VARMINT & PREDATOR', 75, 3375, 0.234, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/23/57/fp-ae-ae22350vp-223remvarmintpredator-r-879635.jpg?v=1&d=20180616T053531Z?mw=655&mh=440&hash=3C551581470773D7353DEE1A1BD98A9CC103A28A');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win FUSION RIFLE', 95, 2980, 0.376, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/42/fu-f243fs1-cfrifle-generic-r-1712201.jpg?v=1&d=20180616T053344Z?mw=655&mh=440&hash=D0FAC6D1FBB96434EF750374957868D5872AF40E');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win NON-TYPICAL', 100, 2960, 0.355, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/26/fp-243dt100-243winsp-nontypical-r-1314868.jpg?v=1&d=20180616T053354Z?mw=655&mh=440&hash=731A84A846F93291675BE4DE592BC2CA81D0A515');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win NOSLER ACCUBOND', 90, 3000, 0.376, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/28/fp-p243a1-243winnosleraccubond-r-1732432.jpg?v=1&d=20180616T053355Z?mw=655&mh=440&hash=1F28A8783B621ACF33BD01F909FC19B0F2422E74');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win NOSLER BALLISTIC TIP HUNTING', 95, 3025, 0.378, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p243j-243winbt-r-1274959.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C107D0A375A3569B2A4208BFEE9D1CB57D486E69');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win NOSLER PARTITION', 100, 2850, 0.384, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/32/fp-p243e-243winnoslerpartition-r-1310326.jpg?v=1&d=20180616T053431Z?mw=655&mh=440&hash=C28DC43F891D5FF264AF4FB0F6D0A1CF2C03F048');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win POWER•SHOK COPPER RIFLE', 85, 3200, 0.233, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/19/fp-power-24385lfa-243winleadfreecopper-r-1461032.jpg?v=1&d=20180616T053443Z?mw=655&mh=440&hash=847A440DBED19890ACDF8A9AE13F1AB05E67336A');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win POWER•SHOK RIFLE', 80, 3330, 0.365, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/17/fp-power-243as-243winsp-r-1295330.jpg?v=1&d=20180616T053426Z?mw=655&mh=440&hash=05DDDFA17C226A758EB31275261316ECE9BE6484');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win POWER•SHOK RIFLE', 100, 2960, 0.355, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/22/fp-power-243b-243winsp-r-1300951.jpg?v=1&d=20180616T053428Z?mw=655&mh=440&hash=42FEB2FC6F73CAE5F31420EF1F41883B660979CE');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win SIERRA GAMEKING BOAT-TAIL SP', 100, 2960, 0.43, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/32/fp-p243c-243winsierragamekingbtsp-r-1310314.jpg?v=1&d=20180616T053431Z?mw=655&mh=440&hash=666B51713714D28D136D542BD63F08C7D68391F8');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win TROPHY COPPER', 85, 3200, 0.391, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p3006tc1-3006springtc-r-1274922.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=5A9949637247B01F0AAF6BB0812F514F2A544E12');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win V•SHOK NOSLER BALLISTIC TIP', 70, 3450, 0.309, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/40/fp-vs-p204b-204btip-lpsd-114369.jpg?v=1&d=20180628T220034Z?mw=655&mh=440&hash=29CCC3B80077F16A718F368E12DEC9D4BA39A393');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('243 Win V•SHOK NOSLER BALLISTIC TIP', 55, 3850, 0.276, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/40/fp-vs-p204b-204btip-lpsd-114369.jpg?v=1&d=20180628T220034Z?mw=655&mh=440&hash=29CCC3B80077F16A718F368E12DEC9D4BA39A393');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('257 Roberts +P NOSLER PARTITION', 120, 2800, 0.391, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p223q-223rem-r-1274953.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C710C65BBC5195C4B2C5196E7A96AE6BCE64EB07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('25-06 Rem FUSION RIFLE', 120, 2980, 0.468, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/06/07/19/05/fu-rifle-generic-pkg-r-270208.jpg?v=1&d=20180616T053555Z?mw=655&mh=440&hash=0D8A16CF188F673D363E8BB96523DCD3169E1DA7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('25-06 Rem NOSLER ACCUBOND', 110, 3100, 0.418, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/28/fp-p2506a1-2506remaccubond-r-1355155.jpg?v=1&d=20180616T053355Z?mw=655&mh=440&hash=273A34B4B0D5FD2B5D2520B1A28CC1A3691B1F09');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('25-06 Rem NOSLER BALLISTIC TIP HUNTING', 100, 3220, 0.394, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/42/fp-p2506d-2506rembt-r-1331851.jpg?v=1&d=20180616T053434Z?mw=655&mh=440&hash=4D413CAA2C6610B52676C15D2F63A63FF54E0BA4');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('25-06 Rem NOSLER PARTITION', 115, 3030, 0.389, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p223q-223rem-r-1274953.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C710C65BBC5195C4B2C5196E7A96AE6BCE64EB07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('25-06 Rem POWER•SHOK RIFLE', 117, 3030, 0.361, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/12/28/fp-power-2506bs-2506remsp-r-1732408.jpg?v=1&d=20180616T053521Z?mw=655&mh=440&hash=4720540C2E63C96997760C26C84E2B6C2BEAABED');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('25-06 Rem SIERRA GAMEKING BOAT-TAIL SP', 117, 3030, 0.41, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/15/fp-p2506c-2506remsierragamekingbtsp-r-1286539.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=4CDB623536609B41778D0A732127D0A775460D33');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('25-06 Rem TROPHY COPPER', 100, 3210, 0.409, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p3006tc1-3006springtc-r-1274922.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=5A9949637247B01F0AAF6BB0812F514F2A544E12');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('25-06 Rem V•SHOK NOSLER BALLISTIC TIP', 85, 3550, 0.329, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/40/fp-vs-p204b-204btip-lpsd-114369.jpg?v=1&d=20180628T220034Z?mw=655&mh=440&hash=29CCC3B80077F16A718F368E12DEC9D4BA39A393');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Grendel AMERICAN EAGLE RIFLE', 120, 2610, 0.421, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/08/00/03/fp-ae-ae65gdl1-65grendelotm-r-881618.jpg?v=1&d=20180616T053532Z?mw=655&mh=440&hash=2BE1BE1F63D986C0A86F1489669B3DDC9E2DBBF0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Grendel AMERICAN EAGLE RIFLE', 90, 3000, 0.260, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/50/fp-ae-ae223j-223remfmj-rpsd-1189303.jpg?v=1&d=20180725T140913Z?mw=655&mh=440&hash=8AADB052C69E145D613F5975DAF11718DEE786F1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Grendel FUSION RIFLE', 120, 2600, 0.34, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/43/fu-f65gldmsr1-65grendelmsr-r-1234545.jpg?v=1&d=20180616T053344Z?mw=655&mh=440&hash=3F226D98C5F06FACBC73BFCA655EF7A31F4BFBEC');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Grendel GOLD MEDAL BERGER', 130, 2400, 0.56, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/12/fp-gm-gm65gdlbh130-goldmedalberger65grendelotm-r-1275031.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=9D05C800A7227DBBCBA037A46CAE646F0A381D5E');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5mmx55 Swedish Mauser FUSION RIFLE', 140, 2530, 0.44, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/22/fu-f6555fs1-cfrifle-generic-r-1712399.jpg?v=1&d=20180616T053502Z?mw=655&mh=440&hash=8D4DD3C2270661338336AA2E6216D399C7D891FB');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5mmx55 Swedish Mauser POWER•SHOK RIFLE', 140, 2650, 0.438, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/08/fp-6555b-65x55swedishsp-r-1407244.jpg?v=1&d=20180616T053440Z?mw=655&mh=440&hash=8F1AB029A1F6519C8E2F7D17865C993E53D79A3B');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Creedmoor AMERICAN EAGLE RIFLE', 120, 2900, 0.421, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/18/fp-ae-ae65crd2-65creedmoorotm-rm-1437061.jpg?v=1&d=20180616T053442Z?mw=655&mh=440&hash=D263598DC4516E70969592D4D3AE75DEEF1BFE0C');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Creedmoor GOLD MEDAL SIERRA MATCHKING', 140, 2675, 0.535, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/13/fp-gm65crd1-65creedmoorsierramatchking-rm-1437010.jpg?v=1&d=20180616T053337Z?mw=655&mh=440&hash=CA69B2741CC79DCBA74BA25CC0B5734F27F19923');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Creedmoor POWER•SHOK RIFLE', 140, 2750, 0.439, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/06/20/21/45/fp-powershokrifle-generic-rpsd-1784988.jpg?v=1&d=20180620T214534Z?mw=655&mh=440&hash=B095D1B804F18511100A3AF679195538422CD85D');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Creedmoor AMERICAN EAGLE RIFLE', 140, 2700, 0.58, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/06/21/01/57/fp-ae-ae65crd1-65creedmoorotm-rpsd-879593.jpg?v=1&d=20180621T040332Z?mw=655&mh=440&hash=1045D8C3312D3B3CEB56D655FEFD887F6692D7A8');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Creedmoor FUSION RIFLE', 140, 2750, 0.439, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/06/06/fu-f65crdfs1-65creedmoor-rm-1078697.jpg?v=1&d=20180616T053409Z?mw=655&mh=440&hash=71B59884BF6676EE97FCCDD5F816D544641981CF');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Creedmoor GOLD MEDAL BERGER', 130, 2875, 0.56, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/09/fp-gm-berger-gm65crdbh130-65creedmoor-r-1263470.jpg?v=1&d=20180616T053423Z?mw=655&mh=440&hash=2119B1FB81BA2AF75EF26F3C3164B5681F725903');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Creedmoor NON-TYPICAL', 140, 2750, 0.439, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/26/fp-65creedmoor-nontypical-rm-1391343.jpg?v=1&d=20180616T053354Z?mw=655&mh=440&hash=0E3EF2317AC1BF64EFB221DB60078343AEE525BB');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Creedmoor NOSLER ACCUBOND', 140, 2725, 0.509, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/28/fp-p65crda1-65creedmooraccubond-r-1355089.jpg?v=1&d=20180616T053355Z?mw=655&mh=440&hash=1447E9D748C6D9E6B02DC1A23A61C3C0E1E81A67');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.5 Creedmoor TROPHY COPPER', 120, 2800, 0.497, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/40/fp-p65crdtc1-65creedmoortc-r-1-1331572.jpg?v=1&d=20180616T053433Z?mw=655&mh=440&hash=28F786B192A9A3E7A022D410036F7A2BD89CD9C0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.8 SPC AMERICAN EAGLE RIFLE', 115, 2675, 0.378, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/50/fp-ae-ae223j-223remfmj-rpsd-1189303.jpg?v=1&d=20180725T140913Z?mw=655&mh=440&hash=8AADB052C69E145D613F5975DAF11718DEE786F1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.8 SPC AMERICAN EAGLE VARMINT & PREDATOR', 90, 2990, 0.275, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/23/57/fp-ae-ae22350vp-223remvarmintpredator-r-879635.jpg?v=1&d=20180616T053531Z?mw=655&mh=440&hash=3C551581470773D7353DEE1A1BD98A9CC103A28A');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.8 SPC FUSION MSR', 115, 2470, 0.378, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/11/22/fu-msr-generic-1072122.jpg?v=1&d=20180616T053539Z?mw=655&mh=440&hash=230C401F03CE091B1B2EA8B0BC229C75DD879750');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6.8 SPC FUSION MSR', 90, 2850, 0.278, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/06/21/04/03/fu-msr-genericpsd-270275.jpg?v=1&d=20180621T040305Z?mw=655&mh=440&hash=3D8CB144B3AF3BD9A3724DE5064FA94D35A8037E');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win FUSION RIFLE', 150, 2850, 0.471, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/16/fu-f270fs2-cfrifle-generic-r-1712219.jpg?v=1&d=20180616T053337Z?mw=655&mh=440&hash=31D30060BC9B69D98DE7D7596B99C97373F137C6');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win FUSION RIFLE', 130, 3050, 0.4, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/16/fu-f270fs1-cfrifle-generic-r-1712213.jpg?v=1&d=20180616T053337Z?mw=655&mh=440&hash=1CB82D50128B75E788A7F95796AB8CB65D65D592');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win NON-TYPICAL', 130, 3060, 0.372, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/35/fp-270dt130-270winsp-nontypical-r-1314874.jpg?v=1&d=20180616T053432Z?mw=655&mh=440&hash=380A91BE134B6FB3CBA8BF2CC49BADFA81988E43');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win NON-TYPICAL', 150, 2830, 0.261, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/26/fp-270dt150-270winsp-nontypical-r-1314880.jpg?v=1&d=20180616T053354Z?mw=655&mh=440&hash=814E3CCB159842BA07663FB0012F8CC1FFFE95C7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win NOSLER ACCUBOND', 140, 2950, 0.496, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/55/fp-p270a1-270winaccubond-r-1355095.jpg?v=1&d=20180616T053436Z?mw=655&mh=440&hash=467EA1497C8AE0CA52450E8881B854E6405FB425');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win NOSLER BALLISTIC TIP HUNTING', 130, 3060, 0.432, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/09/fp-p270f-270winbt-r-1331631.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=173D111CA18A54A11A9133F1C434F5E036658A5B');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win NOSLER PARTITION', 150, 2830, 0.466, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/10/fp-p270e-270win-noslerpartition-r-1286527.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=73FEB9E3701A0532743AA3B703C4C1C07B2080F8');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win NOSLER PARTITION', 130, 3060, 0.416, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/15/fp-p270p-270win-noslerpartition-r-1286533.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=A899FB51227AF92AD0EA97E7B341B806C63C9AC4');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win POWER•SHOK COPPER RIFLE', 130, 3060, 0.287, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/23/59/fp-power-3006-1-50lfa-3006springcopper-front-r-879809.jpg?v=1&d=20180616T053532Z?mw=655&mh=440&hash=EB7B0584580A32D4B8E9F7D01A59F4B0C12BEA28');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win POWER•SHOK RIFLE', 150, 2830, 0.261, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/17/19/fp-power-270b-270winsp-r-1337270.jpg?v=1&d=20180616T053543Z?mw=655&mh=440&hash=62BA67AC165B42DA50B4E8B19735D7F6228CF19F');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win POWER•SHOK RIFLE', 130, 3060, 0.372, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/49/fp-power-270a-270winsp-r-1310386.jpg?v=1&d=20180616T053346Z?mw=655&mh=440&hash=E7BD28EE49921632DC899D514F1BFDE00D435200');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win SIERRA GAMEKING BOAT-TAIL SP', 130, 3060, 0.436, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/11/fp-p270d-270win-sierragamekingbtsp-r-1286515.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=D3E162FF1EE4A4F91B30C70D7C6883E6F9663A4B');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win SIERRA GAMEKING BOAT-TAIL SP', 150, 2830, 0.48, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/15/fp-p270c-270win-sierragamekingbtsp-r-1286521.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=BFDABED7BD8105875DE0680DABDF6AA622AF5E2F');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win TROPHY BONDED TIP', 130, 3060, 0.44, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/13/fp-p270wbtt1-270weatherbymagtbt-r-1331661.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=FF8DD3C14AC42C8F4490AC566320DA632F1279E0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win TROPHY BONDED TIP', 140, 2950, 0.455, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/13/fp-p270wbtt1-270weatherbymagtbt-r-1331661.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=FF8DD3C14AC42C8F4490AC566320DA632F1279E0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win TROPHY COPPER', 130, 3060, 0.459, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/12/fp-p270tc1-270wintc-r-1274965.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C90774F437AD91F6C8EE116CF1DE084DC8284B05');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Weatherby Magnum TROPHY BONDED TIP', 130, 3200, 0.44, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/13/fp-p270wbtt1-270weatherbymagtbt-r-1331661.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=FF8DD3C14AC42C8F4490AC566320DA632F1279E0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7-30 Waters SIERRA GAMEKING BOAT-TAIL SP', 120, 2700, 0.215, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/32/fp-p243c-243winsierragamekingbtsp-r-1310314.jpg?v=1&d=20180616T053431Z?mw=655&mh=440&hash=666B51713714D28D136D542BD63F08C7D68391F8');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Mauser POWER•SHOK RIFLE', 140, 2660, 0.426, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/15/fp-7b-powershok-7mmmausersp-r-1426214.jpg?v=1&d=20180616T053442Z?mw=655&mh=440&hash=185A05D68DE5422A1E24B7C6A7C3A6F7B91E46B5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Mauser POWER•SHOK RIFLE', 175, 2390, 0.272, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Weatherby Magnum TROPHY BONDED TIP', 160, 3100, 0.52, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/08/fp-p7wbtt1-7mmweatherbymagtbt-r-1407256.jpg?v=1&d=20180616T053440Z?mw=655&mh=440&hash=16F0D534CA35E383F4ADAE9E40BC6B05B1B093F3');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Shooting Times Westerner TROPHY BONDED TIP', 160, 3100, 0.52, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/08/13/39/fp-p7stwtt1-7mmstwtbt-r-1331535.jpg?v=1&d=20180616T053537Z?mw=655&mh=440&hash=ECD8B51DBB3DA63EB818105629CC3DD9216152CB');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30 Carbine AMERICAN EAGLE RIFLE', 110, 1990, 0.165, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/50/fp-ae-ae223j-223remfmj-rpsd-1189303.jpg?v=1&d=20180725T140913Z?mw=655&mh=440&hash=8AADB052C69E145D613F5975DAF11718DEE786F1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30 Carbine POWER•SHOK RIFLE', 110, 1990, 0.165, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Blackout AMERICAN EAGLE RIFLE', 150, 1900, 0.406, /assets/images/federalpremium_placeholder.png');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Blackout AMERICAN EAGLE RIFLE SUPPRESSOR', 220, 1000, 0.65, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/27/fp-ae-ae300blksup2-300blackoutpistol-rm-1302195.jpg?v=1&d=20180616T053429Z?mw=655&mh=440&hash=DF79F5B90D100941A57C3CEA5AD535747E960049');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Blackout FUSION MSR', 150, 1900, 0.33, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/41/fu-f300bmsr2-300blackoutmsr-r-1706704.jpg?v=1&d=20180616T053344Z?mw=655&mh=440&hash=03751009ABA6A24CFC9753D167ADC7B15719E269');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Blackout POWER•SHOK COPPER RIFLE', 120, 2100, 0.251, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/08/fp-300blk120lfa-300blackoutcopper-r-1407231.jpg?v=1&d=20180616T053440Z?mw=655&mh=440&hash=6EB72EF76E7A6A72EE8AC44F88295D2A286EAB36');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-30 Win FUSION RIFLE', 170, 2200, 0.313, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/22/fu-f3030fs2-cfrifle-generic-r-1712387.jpg?v=1&d=20180616T053502Z?mw=655&mh=440&hash=2334A83A524E0A06F953C781501BDB0E158B8E04');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-30 Win FUSION RIFLE', 150, 2390, 0.298, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/42/fu-f3030fs1-cfrifle-generic-r-1712381.jpg?v=1&d=20180616T053344Z?mw=655&mh=440&hash=B74F8855EC500DA5C50A2A87C6597C83FB056874');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-30 Win NON-TYPICAL', 170, 2200, 0.254, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/36/fp-3030dt170-3030winsprn-nontypical-r-1314928.jpg?v=1&d=20180616T053432Z?mw=655&mh=440&hash=405CF66C2BBC7BFBA99CECA8B9C8BABD439C352B');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-30 Win NON-TYPICAL', 150, 2390, 0.218, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/27/fp-3030dt150-3030winspfn-nontypical-r-1314910.jpg?v=1&d=20180616T053355Z?mw=655&mh=440&hash=8FBEC3254C972144AD73402A0BEC3783824375DA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-30 Win NOSLER PARTITION', 170, 2200, 0.254, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p223q-223rem-r-1274953.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C710C65BBC5195C4B2C5196E7A96AE6BCE64EB07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-30 Win POWER•SHOK RIFLE', 150, 2390, 0.218, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/23/fp-power-3030a-3030winspfn-r-1301147.jpg?v=1&d=20180616T053428Z?mw=655&mh=440&hash=A29CF151CDB7CF2098A68815DFC3D283F1ECA34E');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-30 Win POWER•SHOK RIFLE', 170, 2200, 0.254, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/00/fp-3030b-powershok-3030winsprn-r-1360377.jpg?v=1&d=20180616T053438Z?mw=655&mh=440&hash=D3A47B51509A256507C9F936F76B608A82050F76');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-30 Win POWER•SHOK RIFLE', 125, 2570, 0.171, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-30 Win TROPHY COPPER', 150, 2300, 0.222, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/17/fp-p3030tc1-3030wintc-r-1274935.jpg?v=1&d=20180616T053353Z?mw=655&mh=440&hash=F2956E4FBB5A670497205AE7F968F0FDAA9BB60E');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Savage POWER•SHOK RIFLE', 180, 2350, 0.383, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Savage POWER•SHOK RIFLE', 150, 2630, 0.313, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/00/fp-300a-powershok-300savagesp-r-1360359.jpg?v=1&d=20180616T053438Z?mw=655&mh=440&hash=5712058F2C1F430E45C94CACAB85FE81CA9790B2');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win AMERICAN EAGLE RIFLE', 150, 2820, 0.408, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/01/fp-ae-ae308d-308win-pkg-r-288737.jpg?v=1&d=20180616T053333Z?mw=655&mh=440&hash=096F55230A6100A136510C79021A6ACFFA2A7CB5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win AMERICAN EAGLE VARMINT & PREDATOR', 130, 3050, 0.263, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/23/57/fp-ae-ae22350vp-223remvarmintpredator-r-879635.jpg?v=1&d=20180616T053531Z?mw=655&mh=440&hash=3C551581470773D7353DEE1A1BD98A9CC103A28A');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win EDGE TLR', 175, 2600, 0.536, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/27/fp-p308etlr175-308win-edgetlr-r-1302556.jpg?v=1&d=20180616T053430Z?mw=655&mh=440&hash=9A59383FB07D7C83B41421D5C6BCA6BC1CC66FCE');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win FUSION MSR', 150, 2770, 0.414, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/20/fu-msr-generic-1712303.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=DE804E65CAFE9A541426101DBC2ED45B12F398CD');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win FUSION RIFLE', 180, 2600, 0.503, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/20/fu-f308fs3-cfrifle-generic-r-1712297.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=9A57F6A56878C4004D8566FDAB383A441BC68F98');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win FUSION RIFLE', 150, 2820, 0.414, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/20/fu-f308fs1-cfrifle-generic-r-1712267.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=027333CE965BB5557FB6CCF39D09325CEAC6B0C6');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win FUSION RIFLE', 165, 2700, 0.446, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/20/fu-f308fs2-cfrifle-generic-r-1712285.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=D71B968C3726FAA86BE3458A100E4F12F776EFC1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win GOLD MEDAL BERGER', 185, 2600, 0.552, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/31/fp-gm-berger-gm308bh185-308win-r-1263482.jpg?v=1&d=20180616T053342Z?mw=655&mh=440&hash=E27EF3BC4191076197EF880747FC311BF58BF336');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win GOLD MEDAL SIERRA MATCHKING', 175, 2600, 0.505, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/34/fp-gm-gm308m2-308winsierramatchking-rpsd-1421744.jpg?v=1&d=20180620T214600Z?mw=655&mh=440&hash=B073041B458D7D09E30E4E07A9CB15DBC64D13B7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win GOLD MEDAL SIERRA MATCHKING', 168, 2650, 0.462, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/30/fp-gm-gm308m-308win-sierramatchking-rm-1308626.jpg?v=1&d=20180616T053431Z?mw=655&mh=440&hash=E98E0DAA8DD12BCA0DE1F7F6F62705EA7FDDC835');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win NON-TYPICAL', 150, 2820, 0.313, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/36/fp-308dt150-308winsp-nontypical-r-1314916.jpg?v=1&d=20180616T053432Z?mw=655&mh=440&hash=7769954D01682D548E5D4B90759FD021F756DF81');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win NON-TYPICAL', 180, 2570, 0.382, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/36/fp-308dt180-308winsp-nontypical-r-1314922.jpg?v=1&d=20180616T053432Z?mw=655&mh=440&hash=C9745B4B5F7369F930E4B080A5FD0767E6556561');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win NOSLER ACCUBOND', 165, 2700, 0.475, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/56/fp-p308a1-308winaccubond-r-1355125.jpg?v=1&d=20180616T053437Z?mw=655&mh=440&hash=7945509AB54D6AA1DF01C5299F45D8B96959BB57');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win NOSLER BALLISTIC TIP HUNTING', 150, 2820, 0.435, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/09/fp-p308f-308winbt-r-1331738.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=18909513030813CF2DAC4E004C034CA3605D17E2');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win NOSLER PARTITION', 150, 2840, 0.387, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p223q-223rem-r-1274953.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C710C65BBC5195C4B2C5196E7A96AE6BCE64EB07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win NOSLER PARTITION', 180, 2570, 0.474, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p223q-223rem-r-1274953.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C710C65BBC5195C4B2C5196E7A96AE6BCE64EB07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win POWER•SHOK COPPER RIFLE', 150, 2820, 0.278, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/19/fp-power-308150lfa-308winleadfreecopper-r-1461050.jpg?v=1&d=20180616T053443Z?mw=655&mh=440&hash=146A893AF10F3C069D3059FEBD4276C6FC2D5FBC');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win POWER•SHOK RIFLE', 150, 2820, 0.313, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/33/fp-power-308a-308winsp-r-1310416.jpg?v=1&d=20180616T053432Z?mw=655&mh=440&hash=808D0890BD337134E3334454A59F19B26EC2D0F4');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win POWER•SHOK RIFLE', 180, 2570, 0.382, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/17/18/fp-power-308b-308winsp-r-1337192.jpg?v=1&d=20180616T053542Z?mw=655&mh=440&hash=C52B82A18DAEDA6128CB52D9D9F3AF17078571F3');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win SIERRA GAMEKING BOAT-TAIL SP', 165, 2700, 0.404, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/11/fp-p308c-308win-sierragamekingbtsp-r-1286599.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=2CEEE1C6FD690665A9211F3ACEF22D53BE1D9D3D');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win TROPHY BONDED TIP', 180, 2620, 0.5, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/13/fp-p270wbtt1-270weatherbymagtbt-r-1331661.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=FF8DD3C14AC42C8F4490AC566320DA632F1279E0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win TROPHY BONDED TIP', 165, 2700, 0.45, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/13/fp-p270wbtt1-270weatherbymagtbt-r-1331661.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=FF8DD3C14AC42C8F4490AC566320DA632F1279E0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win TROPHY COPPER', 165, 2700, 0.469, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/17/12/fp-p308tc2-308wintc-r-1331771.jpg?v=1&d=20180616T053542Z?mw=655&mh=440&hash=A9889073A2ACF5AE261652D696752DCCA07DD01B');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('308 Win TROPHY COPPER', 150, 2820, 0.469, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p3006tc1-3006springtc-r-1274922.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=5A9949637247B01F0AAF6BB0812F514F2A544E12');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7.62x51mm NATO AMERICAN EAGLE RIFLE', 168, 2650, 0.46, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/50/fp-ae-ae223j-223remfmj-rpsd-1189303.jpg?v=1&d=20180725T140913Z?mw=655&mh=440&hash=8AADB052C69E145D613F5975DAF11718DEE786F1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7.62x51mm NATO AMERICAN EAGLE RIFLE', 149, 2790, 0.456, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/25/fp-xm80c762x51-pkg-l-321162.jpg?v=1&d=20180616T053354Z?mw=655&mh=440&hash=3B06D13546C4B73457620A9746393D74D0021D2E');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7.62x51mm NATO AMERICAN EAGLE RIFLE', 168, 2709, 0.456, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/50/fp-ae-ae223j-223remfmj-rpsd-1189303.jpg?v=1&d=20180725T140913Z?mw=655&mh=440&hash=8AADB052C69E145D613F5975DAF11718DEE786F1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield AMERICAN EAGLE RIFLE', 150, 2910, 0.408, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/02/fp-ae-ae3006n-3006fmjbt-r-288392.jpg?v=1&d=20180616T053333Z?mw=655&mh=440&hash=DB08D0CEB36F90D75FD18112080B2B3BB4D96DDA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield AMERICAN EAGLE RIFLE', 150, 2740, 0.41, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/50/fp-ae-ae223j-223remfmj-rpsd-1189303.jpg?v=1&d=20180725T140913Z?mw=655&mh=440&hash=8AADB052C69E145D613F5975DAF11718DEE786F1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield EDGE TLR', 175, 2600, 0.536, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/10/19/33/fp-biggame-3006spring-edgetlr-rm-1191698.jpg?v=1&d=20180616T053553Z?mw=655&mh=440&hash=6D77DEEE43C8625B51312ED14F2319B87C58921B');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield FUSION RIFLE', 180, 2700, 0.498, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/22/fu-f3006fs3-cfrifle-generic-r-1712375.jpg?v=1&d=20180616T053502Z?mw=655&mh=440&hash=6D02059541481F297C74D92DFE50664A86A6CBD5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield FUSION RIFLE', 150, 2900, 0.41, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/06/20/21/45/fu-f3006fs1-3006spring-rpsd-270161.jpg?v=1&d=20180620T214551Z?mw=655&mh=440&hash=582621B5DF6A438B5851D61129A60EA66BA2802C');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield FUSION RIFLE', 165, 2790, 0.454, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/22/fu-f3006fs2-cfrifle-generic-r-1712369.jpg?v=1&d=20180616T053502Z?mw=655&mh=440&hash=5A0120D66A66EB9D944AF895ADE91DDBDCCED434');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield GOLD MEDAL SIERRA MATCHKING', 168, 2700, 0.463, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/08/03/39/fp-gm-gm308m2-308winsierramatchking-l-1421738.jpg?v=1&d=20180616T053535Z?mw=655&mh=440&hash=267E78431AF65526BFC15109E6E440540E86AFD7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield NON-TYPICAL', 180, 2700, 0.385, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/27/fp-3006dt180-3006springsp-nontypical-r-1314892.jpg?v=1&d=20180616T053355Z?mw=655&mh=440&hash=9438C4B39779D5CCDF2B4BD4F9CE1D5F21577075');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield NON-TYPICAL', 150, 2910, 0.313, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/35/fp-3006dt150-3006springsp-nontypical-r-1314886.jpg?v=1&d=20180616T053432Z?mw=655&mh=440&hash=2AE13AD2F66EC4CA4356973F0A8C7D46BCE484B8');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield NOSLER ACCUBOND', 150, 2910, 0.435, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/56/fp-p3006a3-3006springaccubond-r-1355173.jpg?v=1&d=20180616T053437Z?mw=655&mh=440&hash=0E073FCB9F41C8E734CC8E6B119DD27CAD4EAF2D');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield NOSLER ACCUBOND', 165, 2800, 0.475, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/56/fp-p3006a2-3006springaccubond-r-1355167.jpg?v=1&d=20180616T053436Z?mw=655&mh=440&hash=5DBFE51C6C7C4F629F9EF37BD3D400253E3AE6F3');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield NOSLER ACCUBOND', 180, 2700, 0.507, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/29/fp-p3006a1-3006springaccubond-r-1355161.jpg?v=1&d=20180616T053355Z?mw=655&mh=440&hash=9A4998075A6C7D09C042CFFCAD00F4F151E249CB');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield NOSLER BALLISTIC TIP HUNTING', 150, 2910, 4.34, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p243j-243winbt-r-1274959.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C107D0A375A3569B2A4208BFEE9D1CB57D486E69');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield NOSLER BALLISTIC TIP HUNTING', 165, 2800, 0.475, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p243j-243winbt-r-1274959.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C107D0A375A3569B2A4208BFEE9D1CB57D486E69');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield NOSLER PARTITION', 180, 2700, 0.474, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/10/fp-p3006f-3006spring-noslerpartition-r-1286551.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=C4FF028642DA277ED7D2713F10C04E8830A729F7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield NOSLER PARTITION', 165, 2830, 0.409, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p223q-223rem-r-1274953.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C710C65BBC5195C4B2C5196E7A96AE6BCE64EB07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield POWER•SHOK COPPER RIFLE', 150, 2910, 0.278, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/23/59/fp-power-3006-1-50lfa-3006springcopper-front-r-879809.jpg?v=1&d=20180616T053532Z?mw=655&mh=440&hash=EB7B0584580A32D4B8E9F7D01A59F4B0C12BEA28');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield POWER•SHOK RIFLE', 150, 2910, 0.313, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/47/fp-power-3006a-3006springsp-r-1301092.jpg?v=1&d=20180616T053345Z?mw=655&mh=440&hash=DE15D2D5DF5A49BEF5D11DFDE32036AA5A9C2ADA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield POWER•SHOK RIFLE', 125, 3140, 0.267, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/23/fp-power-3006cs-3006springsp-rm-1301141.jpg?v=1&d=20180616T053428Z?mw=655&mh=440&hash=2DC9766FDA573FF03E344BDECC97DAEABA3F1C41');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield POWER•SHOK RIFLE', 180, 2700, 0.385, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/23/fp-power-3006b-3006springsp-r-1301128.jpg?v=1&d=20180616T053428Z?mw=655&mh=440&hash=675554AB6EA546E405287F9F6761C8940C686578');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield POWER•SHOK RIFLE', 220, 2400, 0.293, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield SIERRA GAMEKING BOAT-TAIL SP', 165, 2800, 0.404, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/11/fp-p3006d-3006spring-sierragamekingbtsp-r-1286545.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=77EB7F4A5C70412155A9F1EBF0B13AE95F5C24BE');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield SIERRA GAMEKING BOAT-TAIL SP', 150, 2910, 0.38, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/32/fp-p243c-243winsierragamekingbtsp-r-1310314.jpg?v=1&d=20180616T053431Z?mw=655&mh=440&hash=666B51713714D28D136D542BD63F08C7D68391F8');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield TROPHY BONDED BEAR CLAW', 200, 2540, 0.395, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/21/13/29/fp-biggame-7mmremmagtbbc-rm-1105862.jpg?v=1&d=20180616T053554Z?mw=655&mh=440&hash=E85273F6A129E05602CF39C8EDD2828018922CC4');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield TROPHY BONDED TIP', 165, 2800, 0.45, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/13/fp-p270wbtt1-270weatherbymagtbt-r-1331661.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=FF8DD3C14AC42C8F4490AC566320DA632F1279E0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield TROPHY BONDED TIP', 180, 2700, 0.5, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/15/fp-p3006tt1-3006springtbt-r-1286557.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=13DBDEA23BDD8D410188E8D3C1D5A20AE7B5E128');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield TROPHY COPPER', 180, 2700, 0.523, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p3006tc1-3006springtc-r-1274922.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=5A9949637247B01F0AAF6BB0812F514F2A544E12');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('30-06 Springfield TROPHY COPPER', 165, 2800, 0.503, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/16/fp-p3006tc2-3006springtc-r-1274929.jpg?v=1&d=20180616T053352Z?mw=655&mh=440&hash=D53D6E6535FDA4C70D25F8467BFDAB2EB6743E1A');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 H&H Magnum TROPHY BONDED TIP', 180, 2880, 0.5, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/08/13/40/fp-p300htt1-300handhmagtbt-r-1331692.jpg?v=1&d=20180616T053537Z?mw=655&mh=440&hash=D117D0F4FE4438FB653AD8D382AE2F9B04EB5B05');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Weatherby Magnum TROPHY BONDED TIP', 180, 3100, 0.5, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/13/fp-p270wbtt1-270weatherbymagtbt-r-1331661.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=FF8DD3C14AC42C8F4490AC566320DA632F1279E0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7.62x39mm Soviet AMERICAN EAGLE RIFLE', 124, 2350, 0.298, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/21/fp-ae-a76239a-762x39fmj-r-288553.jpg?v=1&d=20180616T053339Z?mw=655&mh=440&hash=FACEA579708B07AA695826A38E37A413F4CCC696');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7.62x39mm Soviet FUSION RIFLE', 123, 2350, 0.297, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/23/fu-f76239fs1-cfrifle-generic-r-1712411.jpg?v=1&d=20180616T053502Z?mw=655&mh=440&hash=D01498775EF84798F7E8CA946B013441F0B25B07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7.62x39mm Soviet POWER•SHOK RIFLE', 123, 2350, 0.274, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/17/fp-power-76239b-762x39mmsovietsp-r-1301153.jpg?v=1&d=20180616T053338Z?mw=655&mh=440&hash=16B511AEBED2D50F45D419436B401A6FE13995AC');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('303 British POWER•SHOK RIFLE', 180, 2460, 0.328, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/17/18/fp-power-303as-303britishsp-r-1337222.jpg?v=1&d=20180616T053542Z?mw=655&mh=440&hash=72D6E4C295CDBECF17A9657FDDFACD5EB909DBEE');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('303 British POWER•SHOK RIFLE', 150, 2690, 0.356, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/12/29/fp-power-303b-303britishsp-r-1732420.jpg?v=1&d=20180616T053521Z?mw=655&mh=440&hash=FEBD3DF8D1B579158362DA6CD3975FF979AB013A');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('8mm Mauser POWER•SHOK RIFLE', 170, 2250, 0.354, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/22/fp-power-8a-8mmmauser8x57mmsp-r-1300881.jpg?v=1&d=20180616T053428Z?mw=655&mh=440&hash=62B0C39605F3ED163F9A30B31E4E64524DA29B48');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Federal AMERICAN EAGLE RIFLE', 185, 2750, 0.378, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/50/fp-ae-ae223j-223remfmj-rpsd-1189303.jpg?v=1&d=20180725T140913Z?mw=655&mh=440&hash=8AADB052C69E145D613F5975DAF11718DEE786F1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Federal FUSION MSR', 185, 2680, 0.378, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/15/fu-msr-generic-1072202.jpg?v=1&d=20180616T053337Z?mw=655&mh=440&hash=282B981D8A73AD355FD51004D27AECBB2BE27E37');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Federal FUSION RIFLE', 200, 2700, 0.416, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/21/fu-f338ffs2-cfrifle-generic-r-1712309.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=B5BD36998B32E08C1E310BBAB6995B95365D5D85');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Federal POWER•SHOK RIFLE', 200, 2700, 0.41, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/44/fp-power-338fj-338federalsp-r-1337152.jpg?v=1&d=20180616T053435Z?mw=655&mh=440&hash=82CD8E3BBAF0AFAD0DF8EC93B885E85E0894A7B6');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Federal TROPHY BONDED TIP', 200, 2630, 0.44, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/16/fp-p338ftt2-338federaltbt-r-1286611.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=DF70822739EF3DC165806FBED11DEC4576149B12');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Federal TROPHY COPPER', 200, 2630, 0.425, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p3006tc1-3006springtc-r-1274922.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=5A9949637247B01F0AAF6BB0812F514F2A544E12');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Win Magnum FUSION RIFLE', 225, 2850, 0.486, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/21/fu-f338fs1-cfrifle-generic-r-1712315.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=9EAB6F99A605E13EF3F1067FE0F008F6EF61F58C');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Win Magnum NOSLER ACCUBOND', 225, 2800, 0.550, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/56/fp-p338a1-338winmagaccubond-r-1355131.jpg?v=1&d=20180616T053437Z?mw=655&mh=440&hash=4A2112C70ACF535EF5FEB4CC1A721BF502E88FF4');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Win Magnum NOSLER PARTITION', 250, 2660, 0.473, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p223q-223rem-r-1274953.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C710C65BBC5195C4B2C5196E7A96AE6BCE64EB07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Win Magnum NOSLER PARTITION', 210, 2830, 0.398, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/10/fp-p338a2-338winmag-noslerpartition-r-1286605.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=27AFFC928F90DC1C8648693E44713CEE9E6EB2F3');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Win Magnum TROPHY BONDED BEAR CLAW', 225, 2730, 0.371, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/56/fp-p338t1-338winmagtbbc-r-1355137.jpg?v=1&d=20180616T053437Z?mw=655&mh=440&hash=B6DB93E9C9DE7AF54E0CD9269D868F8F95937C0A');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Win Magnum TROPHY BONDED TIP', 200, 2930, 0.44, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/42/fp-p338tt2-338winmagtbt-r-1331803.jpg?v=1&d=20180616T053434Z?mw=655&mh=440&hash=6A757A719B6E06B2E0B64630DFB0E805723653B2');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Win Magnum TROPHY COPPER', 225, 2800, 0.48, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/12/fp-p338tc1-338winmagtc-r-1275000.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=0D0E9B59DF1F44EE34EB7F14D8BE3DA7C680B23D');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Lapua Magnum AMERICAN EAGLE RIFLE', 250, 2875, 0.555, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/13/20/fp-ae-ae338l-338lapuajsp-r-288020.jpg?v=1&d=20180616T053529Z?mw=655&mh=440&hash=C25336484300DFD03EDB35994842E332161C545B');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Lapua Magnum GOLD MEDAL SIERRA MATCHKING', 300, 2580, 0.768, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/08/03/39/fp-gm-gm308m2-308winsierramatchking-l-1421738.jpg?v=1&d=20180616T053535Z?mw=655&mh=440&hash=267E78431AF65526BFC15109E6E440540E86AFD7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Lapua Magnum GOLD MEDAL SIERRA MATCHKING', 250, 2950, 0.587, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/34/fp-gm-gm308m2-308winsierramatchking-rpsd-1421744.jpg?v=1&d=20180620T214600Z?mw=655&mh=440&hash=B073041B458D7D09E30E4E07A9CB15DBC64D13B7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('35 Whelen FUSION RIFLE', 200, 2800, 0.343, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/06/01/13/40/fu-rifle-f35fs1-35w-r-270181.jpg?v=1&d=20180616T053554Z?mw=655&mh=440&hash=1AE4A4A6333C8D82C9C8D397D3683AF2C46AD627');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('35 Whelen TROPHY BONDED BEAR CLAW', 225, 2600, 0.347, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/40/fp-p35wt1-35whelentbbc-r-1331547.jpg?v=1&d=20180616T053433Z?mw=655&mh=440&hash=67F2B1F13235EDE229B325247D6C7A7F302CABA3');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('9.3x62mm Mauser CAPE•SHOK SWIFT A-FRAME', 286, 2360, 0.385, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/50/fp-cape-p9374sa-9374aframe-r-114222.jpg?v=1&d=20180616T053411Z?mw=655&mh=440&hash=F5CB6A509F42C0F1F833EF084734BA71965D9CE5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('9.3x62mm Mauser CAPE•SHOK WOODLEIGH HYDRO SOLID', 286, 2360, 0.26, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/58/fp-cape-p375wh-375hhwood-r-114582.jpg?v=1&d=20180616T053413Z?mw=655&mh=440&hash=FE940364C31D31C90B732575DB06A496B3903CAA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('9.3x74R CAPE•SHOK SWIFT A-FRAME', 286, 2360, 0.385, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/50/fp-cape-p9374sa-9374aframe-r-114222.jpg?v=1&d=20180616T053411Z?mw=655&mh=440&hash=F5CB6A509F42C0F1F833EF084734BA71965D9CE5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('9.3x74R CAPE•SHOK WOODLEIGH HYDRO SOLID', 286, 2360, 0.26, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/58/fp-cape-p375wh-375hhwood-r-114582.jpg?v=1&d=20180616T053413Z?mw=655&mh=440&hash=FE940364C31D31C90B732575DB06A496B3903CAA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('370 Sako Magnum CAPE•SHOK SWIFT A-FRAME', 286, 2550, 0.385, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/50/fp-cape-p9374sa-9374aframe-r-114222.jpg?v=1&d=20180616T053411Z?mw=655&mh=440&hash=F5CB6A509F42C0F1F833EF084734BA71965D9CE5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('370 Sako Magnum CAPE•SHOK WOODLEIGH HYDRO SOLID', 286, 2450, 0.26, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/58/fp-cape-p375wh-375hhwood-r-114582.jpg?v=1&d=20180616T053413Z?mw=655&mh=440&hash=FE940364C31D31C90B732575DB06A496B3903CAA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('375 H&H Magnum CAPE•SHOK SWIFT A-FRAME', 300, 2450, 0.325, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/50/fp-cape-p9374sa-9374aframe-r-114222.jpg?v=1&d=20180616T053411Z?mw=655&mh=440&hash=F5CB6A509F42C0F1F833EF084734BA71965D9CE5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('375 H&H Magnum CAPE•SHOK TROPHY BONDED BEAR CLAW', 300, 2400, 0.342, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/14/08/fp-cape-p375t1-375hhmagtbbc-r-114069.jpg?v=1&d=20180616T053539Z?mw=655&mh=440&hash=1FD0305D6363290AD982C80DDF9FDDA9C4F2B840');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('375 H&H Magnum CAPE•SHOK TROPHY BONDED SLEDGEHAMMER SOLID', 300, 2440, 0.253, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/43/fp-cape-p375t2-375tbss-r-113844.jpg?v=1&d=20180616T053410Z?mw=655&mh=440&hash=2C14AD0B1B8DF8F668487461D235F2040AB2BE0F');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('375 H&H Magnum CAPE•SHOK WOODLEIGH HYDRO SOLID', 300, 2500, 0.26, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/58/fp-cape-p375wh-375hhwood-r-114582.jpg?v=1&d=20180616T053413Z?mw=655&mh=440&hash=FE940364C31D31C90B732575DB06A496B3903CAA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('375 H&H Magnum NOSLER PARTITION', 300, 2440, 0.398, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/42/fp-p375f-375handhmagnoslerpartition-r-1331839.jpg?v=1&d=20180616T053434Z?mw=655&mh=440&hash=107EC7E63402BACE3F27CE21A017305335A99DA4');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('375 H&H Magnum POWER•SHOK RIFLE', 300, 2530, 0.323, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('375 H&H Magnum POWER•SHOK RIFLE', 270, 2690, 0.323, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('375 H&H Magnum TROPHY BONDED BEAR CLAW', 250, 2670, 0.34, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/13/fp-p375t4-375hhmagtbbc-r-1355143.jpg?v=1&d=20180616T053352Z?mw=655&mh=440&hash=9A83A4D1D8BE04BD29766D787E60FA13415E299E');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('416 Rigby CAPE•SHOK SWIFT A-FRAME', 400, 2350, 0.367, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/50/fp-cape-p9374sa-9374aframe-r-114222.jpg?v=1&d=20180616T053411Z?mw=655&mh=440&hash=F5CB6A509F42C0F1F833EF084734BA71965D9CE5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('416 Rigby CAPE•SHOK TROPHY BONDED BEAR CLAW', 400, 2300, 0.374, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/14/08/fp-cape-p375t1-375hhmagtbbc-r-114069.jpg?v=1&d=20180616T053539Z?mw=655&mh=440&hash=1FD0305D6363290AD982C80DDF9FDDA9C4F2B840');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('416 Rigby CAPE•SHOK TROPHY BONDED SLEDGEHAMMER SOLID', 400, 2370, 0.273, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/43/fp-cape-p375t2-375tbss-r-113844.jpg?v=1&d=20180616T053410Z?mw=655&mh=440&hash=2C14AD0B1B8DF8F668487461D235F2040AB2BE0F');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('416 Rigby CAPE•SHOK WOODLEIGH HYDRO SOLID', 400, 2400, 0.26, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/58/fp-cape-p375wh-375hhwood-r-114582.jpg?v=1&d=20180616T053413Z?mw=655&mh=440&hash=FE940364C31D31C90B732575DB06A496B3903CAA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('45-70 Government FUSION RIFLE', 300, 1850, 0.29, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/22/fu-f4570fs1-cfrifle-generic-r-1712393.jpg?v=1&d=20180616T053502Z?mw=655&mh=440&hash=A58B2663FC850D581853F61DA65AB5859CBBBB9D');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('45-70 Government POWER•SHOK RIFLE', 300, 1850, 0.289, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/49/fp-power-4570as-4570govtsp-r-1337139.jpg?v=1&d=20180616T053346Z?mw=655&mh=440&hash=BF801AE1531253082128CBCFD1552D46CC1ADB9F');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('45-70 Government TROPHY BONDED BEAR CLAW', 300, 1850, 0.215, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/08/13/42/fp-p4570t4-4570govttbbc-r-1331933.jpg?v=1&d=20180616T053537Z?mw=655&mh=440&hash=7F7B17480B06794A1C484FEF5FF6615FF39BD0A7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('458 Lott CAPE•SHOK TROPHY BONDED BEAR CLAW', 500, 2300, 0.282, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/14/08/fp-cape-p375t1-375hhmagtbbc-r-114069.jpg?v=1&d=20180616T053539Z?mw=655&mh=440&hash=1FD0305D6363290AD982C80DDF9FDDA9C4F2B840');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('458 Lott CAPE•SHOK TROPHY BONDED SLEDGEHAMMER SOLID', 500, 2300, 0.328, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/43/fp-cape-p375t2-375tbss-r-113844.jpg?v=1&d=20180616T053410Z?mw=655&mh=440&hash=2C14AD0B1B8DF8F668487461D235F2040AB2BE0F');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('458 Lott CAPE•SHOK WOODLEIGH HYDRO SOLID', 500, 2250, 0.26, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/58/fp-cape-p375wh-375hhwood-r-114582.jpg?v=1&d=20180616T053413Z?mw=655&mh=440&hash=FE940364C31D31C90B732575DB06A496B3903CAA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('470 Nitro Express CAPE•SHOK SWIFT A-FRAME', 500, 2150, 0.364, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/50/fp-cape-p9374sa-9374aframe-r-114222.jpg?v=1&d=20180616T053411Z?mw=655&mh=440&hash=F5CB6A509F42C0F1F833EF084734BA71965D9CE5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('470 Nitro Express CAPE•SHOK TROPHY BONDED BEAR CLAW', 500, 2150, 0.299, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/14/08/fp-cape-p375t1-375hhmagtbbc-r-114069.jpg?v=1&d=20180616T053539Z?mw=655&mh=440&hash=1FD0305D6363290AD982C80DDF9FDDA9C4F2B840');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('470 Nitro Express CAPE•SHOK TROPHY BONDED SLEDGEHAMMER SOLID', 500, 2150, 0.28, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/43/fp-cape-p375t2-375tbss-r-113844.jpg?v=1&d=20180616T053410Z?mw=655&mh=440&hash=2C14AD0B1B8DF8F668487461D235F2040AB2BE0F');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('470 Nitro Express CAPE•SHOK WOODLEIGH HYDRO SOLID', 500, 2150, 0.26, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/58/fp-cape-p375wh-375hhwood-r-114582.jpg?v=1&d=20180616T053413Z?mw=655&mh=440&hash=FE940364C31D31C90B732575DB06A496B3903CAA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('500 Nitro Express CAPE•SHOK SWIFT A-FRAME', 570, 2100, 0.306, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/50/fp-cape-p9374sa-9374aframe-r-114222.jpg?v=1&d=20180616T053411Z?mw=655&mh=440&hash=F5CB6A509F42C0F1F833EF084734BA71965D9CE5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('500 Nitro Express CAPE•SHOK WOODLEIGH HYDRO SOLID', 570, 2100, 0.26, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/58/fp-cape-p375wh-375hhwood-r-114582.jpg?v=1&d=20180616T053413Z?mw=655&mh=440&hash=FE940364C31D31C90B732575DB06A496B3903CAA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('50 BMG AMERICAN EAGLE RIFLE', 660, 2910, 0.707, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/50/fp-ae-ae223j-223remfmj-rpsd-1189303.jpg?v=1&d=20180725T140913Z?mw=655&mh=440&hash=8AADB052C69E145D613F5975DAF11718DEE786F1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum EDGE TLR', 155, 3000, 0.61, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/08/01/12/56/fp-biggame-edgetlr-generic-rmpsd-1803749.jpg?v=1&d=20180808T144124Z?mw=655&mh=440&hash=39C875D663DA35515D7F394059AFE7129CB0F7DE');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('22-250 Rem AMERICAN EAGLE VARMINT', 50, 3850, 0.204, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/00/fp-ae-ae22250g-22250remjhp-r-1710115.jpg?v=1&d=20180616T053333Z?mw=655&mh=440&hash=A30EAE718BD1C382DF751280E6EB9698FB00BFB4');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('22-250 Rem AMERICAN EAGLE VARMINT & PREDATOR', 50, 3850, 0.204, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/23/57/fp-ae-ae22350vp-223remvarmintpredator-r-879635.jpg?v=1&d=20180616T053531Z?mw=655&mh=440&hash=3C551581470773D7353DEE1A1BD98A9CC103A28A');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('458 Win Magnum CAPE•SHOK SWIFT A-FRAME', 500, 2090, 0.361, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/50/fp-cape-p9374sa-9374aframe-r-114222.jpg?v=1&d=20180616T053411Z?mw=655&mh=440&hash=F5CB6A509F42C0F1F833EF084734BA71965D9CE5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('416 Rem Magnum CAPE•SHOK SWIFT A-FRAME', 400, 2400, 0.367, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/50/fp-cape-p9374sa-9374aframe-r-114222.jpg?v=1&d=20180616T053411Z?mw=655&mh=440&hash=F5CB6A509F42C0F1F833EF084734BA71965D9CE5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('458 Win Magnum CAPE•SHOK TROPHY BONDED BEAR CLAW', 400, 2250, 0.353, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/14/08/fp-cape-p375t1-375hhmagtbbc-r-114069.jpg?v=1&d=20180616T053539Z?mw=655&mh=440&hash=1FD0305D6363290AD982C80DDF9FDDA9C4F2B840');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('458 Win Magnum CAPE•SHOK TROPHY BONDED BEAR CLAW', 500, 2090, 0.282, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/14/08/fp-cape-p375t1-375hhmagtbbc-r-114069.jpg?v=1&d=20180616T053539Z?mw=655&mh=440&hash=1FD0305D6363290AD982C80DDF9FDDA9C4F2B840');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('416 Rem Magnum CAPE•SHOK TROPHY BONDED BEAR CLAW', 400, 2400, 0.373, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/14/08/fp-cape-p375t1-375hhmagtbbc-r-114069.jpg?v=1&d=20180616T053539Z?mw=655&mh=440&hash=1FD0305D6363290AD982C80DDF9FDDA9C4F2B840');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('458 Win Magnum CAPE•SHOK TROPHY BONDED SLEDGEHAMMER SOLID', 500, 1950, 0.328, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/43/fp-cape-p375t2-375tbss-r-113844.jpg?v=1&d=20180616T053410Z?mw=655&mh=440&hash=2C14AD0B1B8DF8F668487461D235F2040AB2BE0F');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('416 Rem Magnum CAPE•SHOK TROPHY BONDED SLEDGEHAMMER SOLID', 400, 2400, 0.273, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/43/fp-cape-p375t2-375tbss-r-113844.jpg?v=1&d=20180616T053410Z?mw=655&mh=440&hash=2C14AD0B1B8DF8F668487461D235F2040AB2BE0F');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('416 Rem Magnum CAPE•SHOK WOODLEIGH HYDRO SOLID', 400, 2400, 0.26, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/58/fp-cape-p375wh-375hhwood-r-114582.jpg?v=1&d=20180616T053413Z?mw=655&mh=440&hash=FE940364C31D31C90B732575DB06A496B3903CAA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('458 Win Magnum CAPE•SHOK WOODLEIGH HYDRO SOLID', 500, 2050, 0.26, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/58/fp-cape-p375wh-375hhwood-r-114582.jpg?v=1&d=20180616T053413Z?mw=655&mh=440&hash=FE940364C31D31C90B732575DB06A496B3903CAA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum EDGE TLR', 200, 2810, 0.625, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/27/fp-p300wsmetlr200-300winshortmag-edgetlr-r-1302538.jpg?v=1&d=20180616T053430Z?mw=655&mh=440&hash=ED35196816BD2804EC8636849B1B8ED61D03EBB1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum EDGE TLR', 200, 2810, 0.625, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/27/fp-p300wetlr200-300winmag-edgetlr-r-1302544.jpg?v=1&d=20180616T053430Z?mw=655&mh=440&hash=BC800F45E85C8F1B57587B2F1927BE9AE39317E6');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('280 Rem FUSION RIFLE', 140, 2990, 0.485, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/16/fu-f280fs1-cfrifle-generic-r-1712231.jpg?v=1&d=20180616T053337Z?mw=655&mh=440&hash=CBCA55A3ECFED8BE98F6E5DFA113C2A5599F9A20');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('260 Rem FUSION RIFLE', 120, 2950, 0.39, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/42/fu-f260fs1-cfrifle-generic-r-1712207.jpg?v=1&d=20180616T053344Z?mw=655&mh=440&hash=89CAFC59A5D3004DE58798F51AEB1BE04374FA2C');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win Short Magnum FUSION RIFLE', 150, 3060, 0.499, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/19/fu-f270wsmfs1-cfrifle-generic-r-1712225.jpg?v=1&d=20180616T053500Z?mw=655&mh=440&hash=C7C1936616B2265FAA8AAA2AD302C305A9C7C2EA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum FUSION RIFLE', 180, 2960, 0.485, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/06/07/19/05/fu-rifle-generic-pkg-r-270208.jpg?v=1&d=20180616T053555Z?mw=655&mh=440&hash=0D8A16CF188F673D363E8BB96523DCD3169E1DA7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm-08 Rem FUSION RIFLE', 140, 2850, 0.335, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/21/fu-f708fs1-cfrifle-generic-r-1712350.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=212A553BBCE83D70B093306EE1C56DE16FD8ADE1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum FUSION RIFLE', 165, 3080, 0.449, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/19/fu-f300wfs2-cfrifle-generic-r-1712243.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=649C315A8E1456BC57775F319FFC415E6F0BEEC0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum FUSION RIFLE', 175, 2760, 0.537, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/19/fu-f7rfs2-cfrifle-generic-r-1712189.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=BDE4AA2C809942D5B03070E5CD8F5C59F9EA7F39');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('22-250 Rem FUSION RIFLE', 55, 3600, 0.215, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/22/fu-f22250fs1-cfrifle-generic-r-1712405.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=61447AD85549B06E952CD3F05AC2BBF19E49FF9E');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Win Short Magnum FUSION RIFLE', 150, 3100, 0.515, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/19/fu-f7wsmfs1-cfrifle-generic-r-1712195.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=4B5DFACC28531A7539317487F66B67F877EDD3CC');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum FUSION RIFLE', 150, 3050, 0.509, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/19/fu-f7rfs1-cfrifle-generic-r-1712183.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=42EE3DF5D21E7FE86B9DC8A93A5E92D0E5EAF1FC');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm-08 Rem FUSION RIFLE', 120, 3000, 0.39, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/21/fu-f708fs2-cfrifle-generic-r-1712356.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=6B674EF123D042FDE969DE072CFACEB9B6060523');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum FUSION RIFLE', 180, 2950, 0.484, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/20/fu-f300wsmfs2-cfrifle-generic-r-1712255.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=EE19E0B9B9C8D393DECB8893A116EBE9BD0DB75D');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum FUSION RIFLE', 150, 3250, 0.41, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/20/fu-f300wsmfs3-cfrifle-generic-r-1712261.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=DCC1BF090C3E65897B2D2F4D29D459A6FEE2CB2F');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum FUSION RIFLE', 150, 3200, 0.41, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/43/fu-f300wfs1-cfrifle-generic-r-1712237.jpg?v=1&d=20180616T053344Z?mw=655&mh=440&hash=739C975BCF092FA8FF6D7AC5AEE5DB83A0C7C16B');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum FUSION RIFLE', 165, 3100, 0.451, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/19/fu-f300wsmfs1-cfrifle-generic-r-1712249.jpg?v=1&d=20180616T053501Z?mw=655&mh=440&hash=1D77C6E8F4D55305F19F215EF5E18D42029EA0C2');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum GOLD MEDAL SIERRA MATCHKING', 190, 2900, 0.534, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/12/fp-gm308m2-308winsierracartridges2-c-1286357.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=0F95658D8ECCC5A1D6B1EE614B37F9F3A2E000DB');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('260 Rem GOLD MEDAL SIERRA MATCHKING', 142, 2750, 0.611, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/34/fp-gm-gm308m2-308winsierramatchking-rpsd-1421744.jpg?v=1&d=20180620T214600Z?mw=655&mh=440&hash=B073041B458D7D09E30E4E07A9CB15DBC64D13B7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum NON-TYPICAL', 180, 2960, 0.439, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/36/fp-300wdt180-300winmagsp-nontypical-r-1314904.jpg?v=1&d=20180616T053432Z?mw=655&mh=440&hash=E953A409BE800942300BD1BBF794CD9CC9378BEA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum NON-TYPICAL', 150, 3150, 0.389, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/36/fp-300wdt150-300winmagsp-nontypical-r-1314898.jpg?v=1&d=20180616T053432Z?mw=655&mh=440&hash=A0D22940534D7C5CD44E38716BD8FEF3F7EB9F80');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum NON-TYPICAL', 150, 3110, 0.359, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/27/fp-7rdt150-7mmremmagsp-nontypical-r-1314695.jpg?v=1&d=20180616T053355Z?mw=655&mh=440&hash=B4F70868E3B5BD5BE5E1AA761887B7D64F564033');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Rem Ultra Magnum NOSLER ACCUBOND', 180, 3100, 0.507, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/55/fp-p300ruma1-300remultramagaccubond-rpsd-1355107.jpg?v=1&d=20180628T220243Z?mw=655&mh=440&hash=CAE4A0F4C9E25B75ED6953A8FFE3A8BAB3D89009');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Win Short Magnum NOSLER ACCUBOND', 160, 3000, 0.531, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/28/fp-p7wsma1-7mmwsmaccubond-r-1355083.jpg?v=1&d=20180616T053355Z?mw=655&mh=440&hash=FACCA0A01F18E212F1165DBE723CDA974726C741');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm-08 Rem NOSLER ACCUBOND', 140, 2950, 0.485, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/56/fp-p708a1-7mm08remaccubond-r-1355149.jpg?v=1&d=20180616T053437Z?mw=655&mh=440&hash=FDA0520BE28DBCF0F4192E7C4EB8ED5ACB602758');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win Short Magnum NOSLER ACCUBOND', 130, 3250, 0.435, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/29/fp-p270wsma1-270wsmaccubond-r-1355101.jpg?v=1&d=20180616T053355Z?mw=655&mh=440&hash=735D0D487BB9845E433BE27FA1AD42A0B2801FDB');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum NOSLER ACCUBOND', 160, 2900, 0.531, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/55/fp-p7ra1-7mmremmagaccubond-r-1355077.jpg?v=1&d=20180616T053436Z?mw=655&mh=440&hash=004D7B96E0235AF3E9C572C01F6E4A5C7C81037F');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum NOSLER ACCUBOND', 180, 2960, 0.507, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/55/fp-p300wa1-300winmagaccubond-rpsd-1355113.jpg?v=1&d=20180628T220254Z?mw=655&mh=440&hash=6B525A48BA0D43081C8AF51540F922B2776BA54D');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum NOSLER ACCUBOND', 180, 2960, 0.507, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/29/fp-p300wsma1-300wsmaccubond-r-1355119.jpg?v=1&d=20180616T053355Z?mw=655&mh=440&hash=FC982DB757A2065B70D1DB92BDB05D24BF919E50');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win Short Magnum NOSLER BALLISTIC TIP HUNTING', 130, 3300, 0.433, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/13/fp-p270wsmb-270winshortmagbt-r-1286375.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=ABA8C452E0552ACE56697688A54DA536D6290843');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum NOSLER BALLISTIC TIP HUNTING', 150, 3025, 0.495, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p243j-243winbt-r-1274959.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C107D0A375A3569B2A4208BFEE9D1CB57D486E69');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Win Short Magnum NOSLER BALLISTIC TIP HUNTING', 140, 3310, 0.482, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/09/fp-p7wsmb-7mmwinshortmagbt-r-1286430.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=706C935761507E781E733085756F032EE5121FF1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum NOSLER BALLISTIC TIP HUNTING', 150, 3250, 0.435, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/10/fp-p300wsmd-300winshortmag-noslerbt-r-1407347.jpg?v=1&d=20180616T053440Z?mw=655&mh=440&hash=EEADB36982F2466E8C6A1A4B18C47F0DC33C1BB7');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('260 Rem NOSLER BALLISTIC TIP HUNTING', 120, 2950, 0.417, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/41/fp-p260b-260rembt-r-1331612.jpg?v=1&d=20180616T053433Z?mw=655&mh=440&hash=69157950334B39B1B0FD03CBE9B2027F942C3346');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm-08 Rem NOSLER BALLISTIC TIP HUNTING', 140, 2800, 0.485, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/15/fp-p708b-7mm08rembt-r-1426236.jpg?v=1&d=20180616T053442Z?mw=655&mh=440&hash=4BA37492FBBFB7948A6CB1DBCDA87B29A1F89AC0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('338 Rem Ultra Magnum NOSLER PARTITION', 210, 3050, 0.4, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p223q-223rem-r-1274953.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C710C65BBC5195C4B2C5196E7A96AE6BCE64EB07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('22-250 Rem NOSLER PARTITION', 60, 3500, 0.227, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p223q-223rem-r-1274953.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C710C65BBC5195C4B2C5196E7A96AE6BCE64EB07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum NOSLER PARTITION', 165, 3050, 0.409, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p223q-223rem-r-1274953.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C710C65BBC5195C4B2C5196E7A96AE6BCE64EB07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win Short Magnum NOSLER PARTITION', 150, 3100, 0.456, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/13/fp-p270wsmc-270winshortmag-noslerpartition-r-1286381.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=D30DDE4E3874905DCEB1FF1BE646EABBC64122A4');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum NOSLER PARTITION', 180, 2980, 0.474, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/13/fp-p300wsmb-300winshortmagbt-r-1286369.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=1D85FEC2AF6715BBA7E46019EF59458497CCFBCD');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm-08 Rem NOSLER PARTITION', 140, 2800, 0.435, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/16/fp-p708a-7mm08rem-noslerpartition-r-1286626.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=45123F4C5249838A44B0765244D84E2ECCB874F0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum NOSLER PARTITION', 180, 2960, 0.361, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/10/fp-p300wd2-300winmag-noslerpartition-r-1286563.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=A458CE327D5015D39E1E2B0FF9DF27270B985E85');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('280 Rem NOSLER PARTITION', 150, 2890, 0.457, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/41/fp-p280a-280remnoslerpartition-r-1331673.jpg?v=1&d=20180616T053434Z?mw=655&mh=440&hash=7B19ABAF451E1D14FC6F85C08E2862CD0D5353A2');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum NOSLER PARTITION', 165, 3120, 0.411, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/09/fp-p300wsme-300winshortmag-noslerpartition-r-1286399.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=C1CDCCF5B251FC08AB9261249C167C8ED561C9D9');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum NOSLER PARTITION', 140, 3150, 0.434, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/11/fp-p7rg-7mmremmag-noslerpartition-r-1286669.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=7CE7C1FF987E1FD19BAB1443906F264EAD5E3EB4');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum NOSLER PARTITION', 160, 2950, 0.475, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/16/fp-p7rf-7mmremmag-noslerpartition-r-1286663.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=65E41CAEBB7BF7CF13622310DD6B4B7803E17CBA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6mm Rem NOSLER PARTITION', 100, 3100, 0.384, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p223q-223rem-r-1274953.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=C710C65BBC5195C4B2C5196E7A96AE6BCE64EB07');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum POWER•SHOK COPPER RIFLE', 180, 2950, 0.35, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/17/18/fp-power-300wsm180lfa-300winshortmagcopper-r-1337246.jpg?v=1&d=20180616T053542Z?mw=655&mh=440&hash=5C5FBADED0E8DF089D57E40F325055BC2A9BA9F8');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum POWER•SHOK COPPER RIFLE', 180, 2960, 0.35, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/46/fp-power-300w180lfa-300winmagcopper-r-1337258.jpg?v=1&d=20180616T053435Z?mw=655&mh=440&hash=66B748C2E0A2278FCE87C76A538208435A9731E4');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum POWER•SHOK RIFLE', 180, 2960, 0.439, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/33/fp-power-300wbs-300winmagsp-r-1310398.jpg?v=1&d=20180616T053431Z?mw=655&mh=440&hash=6C0AB5EF45F96BB8C066A1103FFE5CD39948B1A2');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Win Short Magnum POWER•SHOK RIFLE', 150, 3100, 0.359, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum POWER•SHOK RIFLE', 150, 3150, 0.389, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum POWER•SHOK RIFLE', 180, 2980, 0.385, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/45/fp-power-300wsmc-300winshortmagsp-r-1337234.jpg?v=1&d=20180616T053435Z?mw=655&mh=440&hash=9C301BB4911D787BBA0113498D3F25FED00DC60A');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('6mm Rem POWER•SHOK RIFLE', 100, 3100, 0.354, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/22/fp-power-6b-6mmremsp-r-1300869.jpg?v=1&d=20180616T053428Z?mw=655&mh=440&hash=D5C0FC6604935D46835C86B2695C6B8121B40F18');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('35 Rem POWER•SHOK RIFLE', 200, 2080, 0.192, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/49/fp-power-35a-35remsp-r-1310368.jpg?v=1&d=20180616T053346Z?mw=655&mh=440&hash=D06DCF7D0B2976D02D44F48C01A3D99D56AFE9E5');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('222 Rem POWER•SHOK RIFLE', 50, 3140, 0.184, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-power-222a-222remsp-r-1274947.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=F4E2B0ED7CF230355F065F17A5BABC84BF8D7D92');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win Short Magnum POWER•SHOK RIFLE', 130, 3250, 0.367, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum POWER•SHOK RIFLE', 150, 3110, 0.359, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/22/fp-power-7ra-7mmremmagsp-r-1300875.jpg?v=1&d=20180616T053428Z?mw=655&mh=440&hash=50E73AC87E230E53AB6572A6C995A44C8209C701');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('22-250 Rem POWER•SHOK RIFLE', 55, 3650, 0.208, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/22/18/fp-power-22250a-22250remsp-r-1337127.jpg?v=1&d=20180616T053338Z?mw=655&mh=440&hash=FB7F01ACE6DD3ADF11852CA5CF290B232E483527');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum POWER•SHOK RIFLE', 175, 2860, 0.429, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/09/17/20/fp-power-7rb-7mmremmagsp-r-1337294.jpg?v=1&d=20180616T053543Z?mw=655&mh=440&hash=31FE05F1519E9AE632C92CF34052FB0026366F95');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('32 Win Special POWER•SHOK RIFLE', 170, 2250, 0.24, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('280 Rem POWER•SHOK RIFLE', 150, 2890, 0.415, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm-08 Rem POWER•SHOK RIFLE', 150, 2650, 0.413, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/08/34/fp-power-3006springsp-rm-1167078.jpg?v=1&d=20180616T053419Z?mw=655&mh=440&hash=DF669C07CEBCE8A8A36A9216909AB647E107AF45');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum SIERRA GAMEKING BOAT-TAIL SP', 150, 3110, 0.436, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/16/fp-p7rd-7mmremmag-sierragamekingbtsp-r-1286647.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=4E2EE77E2B3705804CB1AEF88188F0E368F92429');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('260 Rem SIERRA GAMEKING BOAT-TAIL SP', 140, 2700, 0.416, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/17/fp-p260a-260remsierragamekingbtsp-r-1286687.jpg?v=1&d=20180616T053426Z?mw=655&mh=440&hash=D3A0487ECA078F283E3BC8DDAE164DEFA57552C9');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum SIERRA GAMEKING BOAT-TAIL SP', 165, 2950, 0.458, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/12/fp-p7re-7mmremmagsierragamekingbtsp-r-1286657.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=71725F207EDCF00D550D7B6D2A47187C6ECFC0A0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum TROPHY BONDED BEAR CLAW', 200, 2700, 0.395, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/08/14/08/fp-p300wt1-300winmagtbbc-r-1407365.jpg?v=1&d=20180616T053537Z?mw=655&mh=440&hash=D464F09EB3C6630037BB179EA58685CA8BB4051B');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum TROPHY BONDED BEAR CLAW', 175, 2750, 0.407, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/21/13/29/fp-biggame-7mmremmagtbbc-rm-1105862.jpg?v=1&d=20180616T053554Z?mw=655&mh=440&hash=E85273F6A129E05602CF39C8EDD2828018922CC4');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Rem Ultra Magnum TROPHY BONDED TIP', 180, 3200, 0.5, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/42/fp-p300rumtt1-300remultramagtbt-r-1331709.jpg?v=1&d=20180616T053434Z?mw=655&mh=440&hash=235BBAFE31DF8487DD2874ED77D3F6251234A4BA');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm-08 Rem TROPHY BONDED TIP', 140, 2800, 0.43, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/16/fp-p708tt2-7mm08remtbt-r-1286641.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=4E9252E2E2285F0CFC31254FA2C37ABFB48344C2');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum TROPHY BONDED TIP', 180, 2960, 0.5, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/15/fp-p300wtt1-300winmagtbt-r-1286569.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=2FD0A749D52DE89582836FAD67E35AE8BD136923');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win Short Magnum TROPHY BONDED TIP', 140, 3200, 0.455, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/13/fp-p270wsmtt3-270winshortmagtbt-r-1286393.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=AF9994AAFC53EACB6B356F23AD5C2EFAB2662D14');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Win Short Magnum TROPHY BONDED TIP', 140, 3200, 0.43, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/09/fp-p7wsmtt2-7mmwinshortmagtbt-r-1407310.jpg?v=1&d=20180616T053440Z?mw=655&mh=440&hash=B530D7D7A3C2888B17A26F2C525652DBC400D645');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum TROPHY BONDED TIP', 165, 3130, 0.45, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/13/fp-p300wsmtt2-300winshortmagtbt-r-1286424.jpg?v=1&d=20180616T053352Z?mw=655&mh=440&hash=38B799DE9C401B5C07B4E586FBFABD0ACC9C93BE');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('280 Rem TROPHY BONDED TIP', 140, 2950, 0.43, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/13/fp-p270wbtt1-270weatherbymagtbt-r-1331661.jpg?v=1&d=20180616T053351Z?mw=655&mh=440&hash=FF8DD3C14AC42C8F4490AC566320DA632F1279E0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum TROPHY BONDED TIP', 180, 2960, 0.5, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/14/fp-p300wsmtt1-300winshortmagtbt-r-1286418.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=109F42273AD4CC9FF36CB172469BE023A2EA8CE8');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum TROPHY BONDED TIP', 165, 3050, 0.45, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/15/fp-p300wtt2-300winmagtbt-r-1286575.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=0B6C7F8C869CF20A5D7CBC8F0511D70F359B6428');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum TROPHY BONDED TIP', 160, 2900, 0.52, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/16/fp-p7rtt1-7mmremmagtbt-r-1286675.jpg?v=1&d=20180616T053426Z?mw=655&mh=440&hash=BE250F921F3099F297BB65A0D05E4AC61AEA5FF9');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Win Short Magnum TROPHY BONDED TIP', 160, 3000, 0.52, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/14/fp-p7wsmtt1-7mmwinshortmagtbt-r-1286449.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=8489A4B585FD138462758B14F4A0D0DAE234A665');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win Short Magnum TROPHY BONDED TIP', 130, 3280, 0.44, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/13/fp-p270wsmtt1-270winshortmagtbt-r-1286387.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=26D53EA1E813E8988A2E541145133246F928F144');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum TROPHY BONDED TIP', 140, 3150, 0.43, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/16/fp-p7rtt2-7mmremmagtbt-r-1286681.jpg?v=1&d=20180616T053426Z?mw=655&mh=440&hash=98A4EEF2AA326E6B088409F2F0664A96D0429561');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm-08 Rem TROPHY COPPER', 140, 2800, 0.489, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/16/fp-p708tc2-7mm-08remtc-r-1275007.jpg?v=1&d=20180616T053352Z?mw=655&mh=440&hash=E7E3ECEBC2776B0F315B45BFEEE326AA16603F34');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('270 Win Short Magnum TROPHY COPPER', 130, 3280, 0.459, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/10/09/fp-p270wsmtc1-270winshortmagtc-r-1407335.jpg?v=1&d=20180616T053440Z?mw=655&mh=440&hash=97F2B5BA34C51D8A9192A04BD5320ED7780CDAF4');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum TROPHY COPPER', 165, 3120, 0.503, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/17/fp-p300wsmtc2-300winshortmagtc-r-1286412.jpg?v=1&d=20180616T053352Z?mw=655&mh=440&hash=D31CFD009963E666560563539E5F97D1022F0D5C');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Short Magnum TROPHY COPPER', 180, 2960, 0.523, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/13/fp-p300wsmtc1-300winshortmagtc-r-1286405.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=985966173AEE504CD856B83CB86CD56E75B49306');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum TROPHY COPPER', 140, 3150, 0.489, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/17/fp-p7rtc2-7mmremmagtc-r-1275019.jpg?v=1&d=20180616T053353Z?mw=655&mh=440&hash=BFE7B984ED62D4E65CE2DE492F24AED18045F8C1');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('280 Rem TROPHY COPPER', 140, 2950, 0.489, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/11/fp-p3006tc1-3006springtc-r-1274922.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=5A9949637247B01F0AAF6BB0812F514F2A544E12');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Rem Magnum TROPHY COPPER', 150, 3025, 0.498, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/17/fp-p7rtc3-7mmremmagtc-r-1275025.jpg?v=1&d=20180616T053353Z?mw=655&mh=440&hash=B671F7E262404DFE5A39D6D3759EE578ED9B39A0');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum TROPHY COPPER', 165, 3050, 0.503, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/12/fp-p300wtc2-300winmagtc-r-1274977.jpg?v=1&d=20180616T053424Z?mw=655&mh=440&hash=A0B9C03067C0906117D790C26442EE1070E756B8');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('7mm Win Short Magnum TROPHY COPPER', 150, 3140, 0.498, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/09/14/fp-p7wsmtc3-7mmwinshortmagtc-r-1286436.jpg?v=1&d=20180616T053425Z?mw=655&mh=440&hash=1B1438A3B4179BF439ABAE5DFFE6D2594651E91E');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('300 Win Magnum TROPHY COPPER', 180, 2960, 0.523, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/17/fp-p300wtc1-300winmagtc-r-1274971.jpg?v=1&d=20180616T053352Z?mw=655&mh=440&hash=B90917540C031A96A6850DEB78FF8F9BD467EF77');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('22-250 Rem V•SHOK NOSLER BALLISTIC TIP', 55, 3670, 0.267, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/40/fp-vs-p204b-204btip-lpsd-114369.jpg?v=1&d=20180628T220034Z?mw=655&mh=440&hash=29CCC3B80077F16A718F368E12DEC9D4BA39A393');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('222 Rem V•SHOK NOSLER BALLISTIC TIP', 40, 3450, 0.221, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/06/23/40/fp-vs-p204b-204btip-lpsd-114369.jpg?v=1&d=20180628T220034Z?mw=655&mh=440&hash=29CCC3B80077F16A718F368E12DEC9D4BA39A393');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('22-250 Rem V•SHOK SPEER TNT GREEN', 43, 4000, 0.151, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/07/56/fp-vs-p22250d-22250tntg-r-114462.jpg?v=1&d=20180616T053413Z?mw=655&mh=440&hash=8A27965D75DE4E6534EE144AB48C25F23D701D61');
+INSERT INTO dloads (designation, mass, vm, bc, imgurl) 
+            VALUES ('222 Rem V•SHOK SPEER TNT GREEN', 43, 3400, 0.151, 'https://cdn-federalpremium.azureedge.net/-/media/dam/federal-premium-ammunition/dam-media-bucket/2018/05/07/11/49/fp-vs-p222d-cfrifle-generic-r-1718019.jpg?v=1&d=20180616T053510Z?mw=655&mh=440&hash=3A20C1B27C5C05AB51DA103DD5EF0C2280F231B0');

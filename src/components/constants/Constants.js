@@ -57,7 +57,6 @@ class Constants extends Component {
   }
 
   autoDux(){
-    console.log('wussup')
     let {userid,desIn,massIn,vMIn,bCIn} = this.state
     this.props.newCard({
       userid:userid,

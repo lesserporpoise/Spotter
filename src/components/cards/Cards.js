@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
+import {pullTableU} from '../../ducks/reducer'
+import {connect} from 'react-redux'
+import axios from 'axios'
 
 
 
@@ -12,11 +15,16 @@ class Cards extends Component {
     }
   }
 
+  getUserTable(){
+    setTimeout(()=>{axios.get('/spotter/api/uloads')
+    .then(response=>{this.setState({userTable:response.data});this.props.pullTableU(response.data)})
+  },1000)}
+
   render() {
     return (
       <div className="cardMaster">
         <div className='linkHolder'>
-          <Link to="/myloads"><button className="cardNavButton">MyLoads</button></Link>
+          <Link to="/myloads"><button onClick={()=>this.getUserTable()}className="cardNavButton">MyLoads</button></Link>
           <Link to="/library"><button className="cardNavButton">Library</button></Link>
           <Link to="/admin"><button className="cardNavButton">Admin</button></Link>
         </div>
@@ -58,4 +66,4 @@ class Cards extends Component {
   }
 }
 
-export default Cards
+export default connect(null,{pullTableU})(Cards)
