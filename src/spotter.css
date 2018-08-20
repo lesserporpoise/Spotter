@@ -138,6 +138,8 @@ div{
 .headerLogo{
     font-family:'Righteous', cursive;
     font-size:40px;
+    text-decoration: none;
+    color:white;
 }
 .navMaster{
     display:flex;
